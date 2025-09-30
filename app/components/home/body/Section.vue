@@ -8,14 +8,28 @@ const props = defineProps({
     type: String,
     default: "",
   },
+  allSpace: {
+    type: Boolean,
+    default: false,
+  },
 });
 </script>
 <template>
   <div
-    class="flex flex-col gap-5 self-center min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10"
+    class="flex flex-col gap-5 self-center w-full"
+    :class="{
+      '': allSpace,
+      'min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10': !allSpace,
+    }"
   >
-    <div class="max-w-[1280px] w-full">
-      <span class="text-4xl font-bold">{{ title.toUpperCase() }}</span>
+    <div
+      class="min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10"
+      :class="{
+        'self-center': allSpace,
+        // 'self-center md:px-0 px-10': !allSpace,
+      }"
+    >
+      <span class="text-3xl font-bold">{{ title.toUpperCase() }}</span>
     </div>
     <slot></slot>
   </div>

@@ -17,5 +17,56 @@
     "Git",
     "Software Pipeline (Dassault Systèmes DevOps)",
     "Kibana"
-  ]
+  ],
+  "yayasopeguesoroStacks": [
+    "Nuxt.js (Nuxt UI, etc.)",
+    "Git",
+    "GitHub",
+    "EmailJs",
+    "Netlify"
+  ],
+
+  "mjaiStacks": [
+    "Nuxt.js (Nuxt UI, etc.)",
+    "Node.js",
+    "Express",
+    "Docker",
+    "Git",
+    "GitHub",
+    "Azure (Web App, DevOps & AI)",
+    "Netlify"
+  ],
+  "logganStacks": ["Nuxt.js (Nuxt UI, etc.)", "Git", "GitHub", "Netlify"],
+  "nstStacks": [
+    "Nuxt.js (Nuxt UI, etc.)",
+    "Node.js",
+    "Express",
+    "Docker",
+    "Git",
+    "GitHub",
+    "Azure (Web App, DevOps & AI)",
+    "Netlify"
+  ],
+  "theeaStacks": [
+    "Vue.js (Hooks, Pinia & TailwindCSS)",
+    "Node.js",
+    "Express",
+    "Socket.io",
+    "Docker",
+    "Git",
+    "GitHub",
+    "Azure (Web App, DevOps & AI)",
+    "Netlify"
+  ],
+  "affixStacks": [
+    "Vue.js (Hooks, Pinia & TailwindCSS)",
+    "Node.js",
+    "Express",
+    "Docker",
+    "Git",
+    "GitHub",
+    "Azure (Web App, DevOps & AI)",
+    "Netlify"
+  ],
+  "hyphipStacks": ["Nuxt.js", "Firebase/Firestore", "Git", "GitHub", "Netlify"]
 }

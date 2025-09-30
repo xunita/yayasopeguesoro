@@ -6,3 +6,8 @@ body {
 .yss-header > div {
   max-width: 100% !important;
 }
+
+/* Make default scroll behavior smooth across the site */
+html {
+  scroll-behavior: smooth;
+}

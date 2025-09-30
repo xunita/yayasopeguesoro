@@ -17,6 +17,20 @@
       >
         <Experience />
       </div>
+      <div
+        id="projects"
+        v-motion-slide-visible-once-bottom
+        class="w-full flex justify-center pt-15 scroll-mt-25 border-t border-gray-100"
+      >
+        <Work />
+      </div>
+      <div
+        id="contact"
+        v-motion-slide-visible-once-bottom
+        class="w-full flex justify-center pt-15 scroll-mt-25"
+      >
+        <Contact />
+      </div>
     </div>
   </div>
 </template>
