@@ -71,5 +71,13 @@
     "img": "/images/hyphip.png",
     "link": "https://hyphip.netlify.app",
     "description": "Hyphip is a file hosting and sharing website that I developed to directly integrate these files into the dedicated HTML tags of my projects."
-  }
+  },
+  "required": "Required",
+  "emailInvalid": "This is no a valid email",
+  "object": "Title",
+  "nameContact": "Name",
+  "send": "Send",
+  "typeSomething": "Type something...",
+  "messageSent": "Message has been sent!",
+  "errorSending": "Error sending message!"
 }

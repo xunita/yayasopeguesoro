@@ -71,7 +71,7 @@ watch(locale, (newLocale) => {
 </script>
 <template>
   <div
-    class="w-full flex flex-col gap-10 py-5 text-white/95"
+    class="w-full flex flex-col gap-10 py-5 text-white/95 my-0"
     :style="`background-color: ${color}`"
   >
     <WorkProject

@@ -27,10 +27,11 @@
       <div
         id="contact"
         v-motion-slide-visible-once-bottom
-        class="w-full flex justify-center pt-15 scroll-mt-25"
+        class="w-full flex justify-center scroll-mt-25"
       >
         <Contact />
       </div>
     </div>
+    <HomeFooter />
   </div>
 </template>
