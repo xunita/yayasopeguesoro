@@ -17,5 +17,15 @@
   "aboutSecondP3": " applications. A very enriching experience as I was able to learn a lot of new technologies (legacy and new) and work in a team in an agile and above all multicultural environment.",
   "aboutThirdP": "My passion for web development started with the discovery of the Vue.js JavaScript framework. Since then, I have deepened my knowledge in front-end and back-end development by working on various personal and professional projects. I enjoy creating high-performance and intuitive web applications that offer an excellent user experience and, above all, meet the needs for which they are designed.",
   "aboutFourthP": "I like to use Nuxt.js for my front-end projects because it offers a solid structure and advanced features that facilitate the development of modern web applications. For the back-end, I particularly appreciate Node.js with Express.js due to their flexibility and performance, and Spring Boot for more robust and enterprise-level applications that are easy to maintain. I also enjoy working with relational databases like MySQL and PostgreSQL to efficiently manage data. I am also a DevOps enthusiast, using tools like Docker for containerization and Git for version control. I also use platforms like Azure and Netlify for deploying and hosting my applications.",
-  "aboutFithP": "Whether you need a new application, a revamp of an existing application, or need to strengthen your development team, or even just to say hello, feel free to contact me. I am always open to new opportunities and collaborations."
+  "aboutFithP": "Whether you need a new application, a revamp of an existing application, or need to strengthen your development team, or even just to say hello, feel free to contact me. I am always open to new opportunities and collaborations.",
+  "djidji": {
+    "date": "February 2020 - May 2020",
+    "title": "Full Stack Developer",
+    "description": "Djidji is a peer-to-peer goods exchange website that I developed as part of an end-of-study internship for my bachelor's degree. The main technologies used in this project are:"
+  },
+  "3dnotification": {
+    "date": "March 2024 - September 2024",
+    "title": "Full Stack Developer",
+    "description": "The 3DNotification Center is a notification management application for 3DEXPERIENCE (Dassault Systèmes' business platform) applications. As part of my master's graduation, I worked in collaboration with the 3DNotification and 3DMessaging teams on the front-end revamp and back-end optimization of the Notification Center. The main technologies used in the revamp of the 3DNotification Center are:"
+  }
 }

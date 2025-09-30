@@ -10,7 +10,7 @@ useHead({
 });
 </script>
 <template>
-  <div class="w-full h-screen ">
+  <div class="w-full h-screen">
     <HomeBody />
   </div>
 </template>

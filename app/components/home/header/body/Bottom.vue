@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <div
-    class="min-md:w-5/6 max-w-[1920px] w-full md:px-0 lg:py-0 pt-15 px-10 self-center flex justify-center"
+    class="min-md:w-5/6 max-w-[1080px] w-full md:px-0 lg:py-0 pt-15 px-10 self-center flex justify-center"
   >
     <div
       class="flex lg:flex-row flex-col lg:gap gap-10 items-center justify-center w-full"

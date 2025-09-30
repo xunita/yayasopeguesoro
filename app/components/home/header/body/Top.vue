@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="self-center min-md:w-5/6 max-w-[1920px] w-full border-0">
+  <div class="self-center min-md:w-5/6 max-w-[1080px] w-full border-0">
     <UHeader
       mode="slideover"
       :ui="{
@@ -14,7 +14,7 @@
         <HomeHeaderPartsLeft />
       </template>
       <template #right>
-        <div v-motion-slide-visible-right class="lg:block hidden">
+        <div v-motion-slide-visible-right :duration="250" class="lg:block hidden">
           <HomeHeaderPartsRight />
         </div>
       </template>

@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 <template>
   <HomeBodySection :title="$t('about')">
-    <p class="font-medium">{{ $t("aboutFirstP") }}</p>
+    <p>{{ $t("aboutFirstP") }}</p>
     <div class="inline">
-      <p class="inline font-medium">{{ $t("aboutSecondP1") }}</p>
+      <p class="inline">{{ $t("aboutSecondP1") }}</p>
       <ULink
         raw
         to="https://www.3ds.com/3dexperience/"
@@ -13,10 +13,10 @@
           {{ $t("aboutSecondP2") }}
         </p></ULink
       >
-      <p class="inline font-medium">{{ $t("aboutSecondP3") }}</p>
+      <p class="inline">{{ $t("aboutSecondP3") }}</p>
     </div>
-    <p class="font-medium">{{ $t("aboutThirdP") }}</p>
-    <p class="font-medium">{{ $t("aboutFourthP") }}</p>
-    <p class="font-medium">{{ $t("aboutFithP") }}</p>
+    <p>{{ $t("aboutThirdP") }}</p>
+    <p>{{ $t("aboutFourthP") }}</p>
+    <p>{{ $t("aboutFithP") }}</p>
   </HomeBodySection>
 </template>

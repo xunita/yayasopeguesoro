@@ -1,0 +1,21 @@
+{
+  "djidjiStacks": [
+    "Vue.js (Hooks, Vuex & TailwindCSS)",
+    "Laravel",
+    "PostgreSQL",
+    "Heroku",
+    "Netlify",
+    "Git",
+    "GitHub"
+  ],
+  "3dnotificationStacks": [
+    "Vue.js (Hooks & Pinia)",
+    "Node.js",
+    "Express",
+    "Redis",
+    "MySQL, OracleDB, MSSQL, PostgreSQL",
+    "Git",
+    "Software Pipeline (Dassault Systèmes DevOps)",
+    "Kibana"
+  ]
+}
