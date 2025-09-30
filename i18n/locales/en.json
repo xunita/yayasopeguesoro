@@ -79,5 +79,6 @@
   "send": "Send",
   "typeSomething": "Type something...",
   "messageSent": "Message has been sent!",
-  "errorSending": "Error sending message!"
+  "errorSending": "Error sending message!",
+  "cv": "My Resume"
 }

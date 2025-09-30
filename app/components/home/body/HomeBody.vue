@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="w-full relative pb-15">
+  <div class="w-full relative pb-5">
     <HomeHeaderBody />
     <div class="space-y-25 flex flex-col w-full">
       <div
@@ -32,6 +32,7 @@
         <Contact />
       </div>
     </div>
+    <Resume v-motion-slide-visible-once-bottom />
     <HomeFooter />
   </div>
 </template>

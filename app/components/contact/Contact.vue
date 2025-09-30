@@ -64,7 +64,7 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
 <template>
   <HomeBodySection :title="$t('contact')" :allSpace="true">
     <div
-      class="self-center min-md:w-3/6 max-w-[1080px] w-full md:px-0 px-10 py-5"
+      class="self-center min-md:w-2/6 max-w-[1080px] w-full md:px-0 px-10 py-5"
     >
       <UForm
         :validate="validate"
@@ -92,7 +92,7 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
             }"
           />
         </UFormField>
-        <UFormField label="Email" name="email" class="w-full">
+        <UFormField label="Email" name="email" class="w-full" required>
           <UInput
             v-model="state.email"
             color="neutral"
@@ -102,7 +102,7 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
             }"
           />
         </UFormField>
-        <UFormField label="Message" name="message" class="w-full">
+        <UFormField label="Message" name="message" class="w-full" required>
           <UTextarea
             v-model="state.message"
             color="neutral"

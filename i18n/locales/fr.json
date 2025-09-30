@@ -79,5 +79,6 @@
   "send": "Envoyer",
   "typeSomething": "Ecrivez quelque chose...",
   "messageSent": "Message a été envoyé!",
-  "errorSending": "Erreur pendant l'envoi du messsage!"
+  "errorSending": "Erreur pendant l'envoi du messsage!",
+  "cv": "Mon CV"
 }

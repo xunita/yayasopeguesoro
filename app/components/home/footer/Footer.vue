@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UFooter class="min-md:w-2/6 max-w-[720px] w-full mx-auto border-t border-gray-100 my-10">
+  <UFooter
+    class="min-md:w-2/6 max-w-[720px] w-full mx-auto border-t border-gray-100"
+  >
     <template #left>
       <p class="text-muted text-sm">
         Copyright © {{ new Date().getFullYear() }}
