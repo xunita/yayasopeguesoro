@@ -1,0 +1,21 @@
+{
+  "about": "About",
+  "experience": "Experience",
+  "contact": "Contact",
+  "RecentProjects": "Recent Projects",
+  "projects": "Projects",
+  "title": "Full Stack Developer, Evry-Courcouronnes, France - Yaya Sopegue Soro",
+  "metaDescription": "Welcome to the portfolio of Yaya Sopegue Soro, a full stack developer based in France. Discover his recent projects, professional experience, and how to contact him for collaboration opportunities.",
+  "hiMyNameIs": "Hi, my name is",
+  "webSoftwareEngineerInFrance": "Full Stack Developer in France",
+  "getInTouch": "Get in touch",
+  "nameContent": "YAYA S. SORO",
+  "yayaImg": "This is an image of Yaya S. Soro",
+  "aboutFirstP": "My name is Yaya Sopegue Soro. I am a fullstack developer living in France in the city of Evry-Courcouronnes, with skills in data analysis and design. I am passionate about roller skating, reading, and solving problems with code.",
+  "aboutSecondP1": "My last professional experience was at Dassault Systèmes as a fullstack developer. I worked on the revamp of the 3DNotification Center, a notification management application for ",
+  "aboutSecondP2": "3DEXPERIENCE",
+  "aboutSecondP3": " applications. A very enriching experience as I was able to learn a lot of new technologies (legacy and new) and work in a team in an agile and above all multicultural environment.",
+  "aboutThirdP": "My passion for web development started with the discovery of the Vue.js JavaScript framework. Since then, I have deepened my knowledge in front-end and back-end development by working on various personal and professional projects. I enjoy creating high-performance and intuitive web applications that offer an excellent user experience and, above all, meet the needs for which they are designed.",
+  "aboutFourthP": "I like to use Nuxt.js for my front-end projects because it offers a solid structure and advanced features that facilitate the development of modern web applications. For the back-end, I particularly appreciate Node.js with Express.js due to their flexibility and performance, and Spring Boot for more robust and enterprise-level applications that are easy to maintain. I also enjoy working with relational databases like MySQL and PostgreSQL to efficiently manage data. I am also a DevOps enthusiast, using tools like Docker for containerization and Git for version control. I also use platforms like Azure and Netlify for deploying and hosting my applications.",
+  "aboutFithP": "Whether you need a new application, a revamp of an existing application, or need to strengthen your development team, or even just to say hello, feel free to contact me. I am always open to new opportunities and collaborations."
+}
