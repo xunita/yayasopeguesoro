@@ -17,6 +17,7 @@
           }}</span>
         </div>
         <UButton
+          to="/#contact"
           size="xl"
           color="neutral"
           variant="outline"
