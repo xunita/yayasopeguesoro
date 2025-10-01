@@ -30,9 +30,9 @@
       <NuxtImg
         src="/images/yaya-bg-rmv-cut.png"
         :alt="$t('yayaImg')"
-        :modifiers="{ roundCorner: '0:100' }"
-        loading="lazy"
+        loading="eager"
         width="512"
+        placeholder
       />
     </div>
   </div>
