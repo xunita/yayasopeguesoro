@@ -11,7 +11,7 @@ useHead({
     { property: "og:description", content: t("metaDescription") },
     { property: "og:image", content: "https://yayasopegue.netlify.app/images/yayasopeguesoro.png" },
     { property: "og:url", content: "https://yayasopegue.netlify.app" },
-    { property: "og:type", content: "portfolio" },
+    { property: "og:type", content: "website" },
 
     // For Twitter
     { name: "twitter:card", content: t("metaDescription") },
