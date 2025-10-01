@@ -16,7 +16,7 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="flex flex-col gap-5 self-center w-full"
+    class="flex flex-col gap-5 self-center w-full pt-10"
     :class="{
       '': allSpace,
       'min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10': !allSpace,

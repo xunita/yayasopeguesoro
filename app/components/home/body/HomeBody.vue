@@ -6,28 +6,28 @@
       <div
         id="about"
         v-motion-slide-visible-once-bottom
-        class="w-full flex justify-center pt-10 scroll-mt-25"
+        class="w-full flex justify-center scroll-mt-15"
       >
         <About />
       </div>
       <div
         id="experience"
         v-motion-slide-visible-once-bottom
-        class="w-full flex justify-center pt-10 scroll-mt-25 border-t border-gray-200"
+        class="w-full flex justify-center scroll-mt-15 border-t border-gray-200"
       >
         <Experience />
       </div>
       <div
         id="projects"
         v-motion-slide-visible-once-bottom
-        class="w-full flex justify-center pt-10 scroll-mt-25 border-t border-gray-200"
+        class="w-full flex justify-center scroll-mt-15 border-t border-gray-200"
       >
         <Work />
       </div>
       <div
         id="contact"
         v-motion-slide-visible-once-bottom
-        class="w-full flex justify-center scroll-mt-25"
+        class="w-full flex justify-center scroll-mt-15"
       >
         <Contact />
       </div>

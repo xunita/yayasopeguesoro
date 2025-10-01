@@ -8,7 +8,7 @@
         header: 'self-center w-full px-5 py-10 border-0',
         toggle: 'cursor-pointer',
       }"
-      class="border-0 md:px-0 px-5 py-15 "
+      class="border-0 md:px-0 px-5 py-10 "
     >
       <template #title>
         <HomeHeaderPartsLeft />
