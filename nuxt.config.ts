@@ -9,6 +9,45 @@ export default defineNuxtConfig({
       YOUR_PUBLIC_KEY: process.env.YOUR_PUBLIC_KEY,
     },
   },
+  app: {
+    head: {
+      meta: [
+        { charset: "utf-8" },
+        // <meta name="viewport" content="width=device-width, initial-scale=1">
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "description", content: "" },
+        // Open Graph
+        { property: "og:title", content: "Yaya S. SORO" },
+        {
+          property: "og:description",
+          content: "Yaya Sopegue Soro | Portfolio",
+        },
+        {
+          property: "og:image",
+          content: "https://yayasopegue.netlify.app/images/yayasopeguesoro.png",
+        },
+        { property: "og:url", content: "https://yayasopegue.netlify.app" },
+        { property: "og:type", content: "website" },
+
+        {
+          property: "og:site_name",
+          content: "Yaya Sopegue Soro | Portfolio",
+        },
+
+        // For Twitter
+        { name: "twitter:card", content: "Yaya Sopegue Soro | X" },
+        { name: "twitter:title", content: "Yaya S. SORO" },
+        {
+          name: "twitter:description",
+          content: "Yaya Sopegue Soro | Portfolio",
+        },
+        {
+          name: "twitter:image",
+          content: "https://yayasopegue.netlify.app/images/yayasopeguesoro.png",
+        },
+      ],
+    },
+  },
   ssr: false,
   css: ["~/assets/css/yayasopegue.css", "~/assets/css/tailwind.css"],
   modules: [
