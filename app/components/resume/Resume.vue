@@ -10,7 +10,7 @@ const openCV = () => {
 };
 </script>
 <template>
-  <div class="flex w-full justify-center pt-10 my-10 border-t border-gray-100">
+  <div class="flex w-full justify-center pt-10 my-10 border-t border-gray-200">
     <UButton
       size="lg"
       icon="ph:read-cv-logo-fill"

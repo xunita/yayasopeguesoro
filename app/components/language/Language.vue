@@ -22,7 +22,7 @@ const selectedLocale = computed({
 <template>
   <ULocaleSelect
     v-model="selectedLocale"
-    class="cursor-pointer ring-0 border border-gray-100"
+    class="cursor-pointer ring-0 border border-gray-200"
     :ui="{ item: 'cursor-pointer' }"
     :locales="locales"
     @update:model-value="setLocale($event)"

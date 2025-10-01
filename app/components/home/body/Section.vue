@@ -23,10 +23,10 @@ const props = defineProps({
     }"
   >
     <div
-      class="min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10"
+      class="min-md:w-5/6 max-w-[1080px] w-full"
       :class="{
-        'self-center': allSpace,
-        // 'self-center md:px-0 px-10': !allSpace,
+        'self-center md:px-0 px-10': allSpace,
+        // 'px-0': !allSpace,
       }"
     >
       <span class="text-3xl font-bold">{{ title.toUpperCase() }}</span>

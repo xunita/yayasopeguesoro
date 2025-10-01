@@ -4,12 +4,12 @@
     class="min-md:w-5/6 max-w-[1080px] w-full md:px-0 lg:py-0 pt-15 px-10 self-center flex justify-center"
   >
     <div
-      class="flex lg:flex-row flex-col lg:gap gap-10 items-center justify-center w-full"
+      class="flex lg:flex-row flex-col lg:gap-0 gap-10 items-center justify-center w-full"
     >
       <div class="flex flex-col gap-5 lg:w-full">
         <div class="flex flex-col gap-1.5">
           <span class="font-semibold">{{ $t("hiMyNameIs") }}</span>
-          <span class="sm:text-6xl text-5xl font-bold">{{
+          <span class="lg:text-6xl text-5xl font-bold">{{
             $t("nameContent")
           }}</span>
           <span class="font-semibold">{{

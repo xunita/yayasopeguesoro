@@ -2,7 +2,7 @@
 
 <template>
   <UFooter
-    class="min-md:w-2/6 max-w-[720px] w-full mx-auto border-t border-gray-100"
+    class="min-md:w-2/6 max-w-[720px] w-full mx-auto border-t border-gray-200"
   >
     <template #left>
       <p class="text-muted text-sm">
