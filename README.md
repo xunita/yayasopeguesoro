@@ -1,75 +1,27 @@
-# Nuxt Minimal Starter
+# Yaya Sopegue Soro - Portfolio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Hi, I'm **Yaya Sopegue Soro**.
 
-## Setup
+This is my **fullstack developer** portfolio with all **my professional experiences and recents projets** (the one I like and I'm confident about 😁).
 
-Make sure to install dependencies:
+Feel free to [**contact me**](https://yayasopegue.netlify.app/#contact) for anything or you can just say Hello 👋.
 
-```bash
-# npm
-npm install
+## Website
 
-# pnpm
-pnpm install
+[![Yaya Sopegue Soro portfolio home page](https://yayasopegue.netlify.app/images/yayasopeguesoro.png)](https://yayasopegue.netlify.app/)
 
-# yarn
-yarn install
+## Send Me a message
 
-# bun
-bun install
-```
+[![Yaya Sopegue Soro portfolio contact section](https://yayasopegue.netlify.app/images/contact.png)](https://yayasopegue.netlify.app/#contact)
 
-## Development Server
+## Socials
 
-Start the development server on `http://localhost:3000`:
+You can also follow me on these social networks if you'd like to 😊.
 
-```bash
-# npm
-npm run dev
+**[X][]** •
+**[Github][]** •
+**[LinkedIn][]**
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[X]: https://www.x.com/yayasopegue
+[GitHub]: https://github.com/xunita
+[LinkedIn]: https://linkedin.com/in/sopoude
