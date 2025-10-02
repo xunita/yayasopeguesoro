@@ -78,7 +78,7 @@
   "nameContact": "Nom",
   "send": "Envoyer",
   "typeSomething": "Ecrivez quelque chose...",
-  "messageSent": "Message a été envoyé!",
+  "messageSent": "Votre message a été envoyé!",
   "errorSending": "Erreur pendant l'envoi du messsage!",
   "cv": "Mon CV"
 }
