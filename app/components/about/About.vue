@@ -2,7 +2,19 @@
 <template>
   <HomeBodySection :title="$t('about')">
     <div class="flex flex-col gap-3 w-full">
-      <p>{{ $t("aboutFirstP") }}</p>
+      <div class="inline">
+        <p class="inline">{{ $t("aboutFirstP1") }}</p>
+        <ULink
+          raw
+          to="https://linkedin.com/in/sopoude"
+          target="_blank"
+          active-class="font-bold underline-none"
+          ><p class="inline font-medium">
+            {{ $t("aboutFirstP2") }}
+          </p></ULink
+        >
+        <p class="inline">{{ $t("aboutFirstP3") }}</p>
+      </div>
       <div class="inline">
         <p class="inline">{{ $t("aboutSecondP1") }}</p>
         <ULink
