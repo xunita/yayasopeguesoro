@@ -28,7 +28,7 @@
         >
       </div>
       <NuxtImg
-        src="/images/yaya-bg-rmv-cut.png"
+        src="/images/yaya.png"
         :alt="$t('yayaImg')"
         loading="eager"
         width="512"
