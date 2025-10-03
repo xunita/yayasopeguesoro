@@ -5,7 +5,7 @@
     <HomeHeaderBodyTop />
   </div>
   <!-- Header bottom -->
-  <div class="w-full flex justify-center min-h-[437px] border-b border-gray-200">
+  <div class="w-full flex justify-center min-h-[416px] border-b border-gray-200">
     <HomeHeaderBodyBottom />
   </div>
 </template>
