@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { color } from "~/constants/logo-color";
-import nls from "@/assets/json/nls.json";
+import stacks from "@/assets/json/projects-stacks.json";
 const { locale, t } = useI18n();
 let works = [
   {
@@ -9,7 +9,7 @@ let works = [
     img: t("yayasopeguesoro.img"),
     description: t("yayasopeguesoro.description"),
     link: t("yayasopeguesoro.link"),
-    stacks: nls["yayasopeguesoroStacks"],
+    stacks: stacks["yayasopeguesoroStacks"],
   },
   {
     id: "mjai",
@@ -18,7 +18,7 @@ let works = [
     img: t("mjai.img"),
     description: t("mjai.description"),
     link: t("mjai.link"),
-    stacks: nls["mjaiStacks"],
+    stacks: stacks["mjaiStacks"],
   },
   {
     id: "loggan",
@@ -26,7 +26,7 @@ let works = [
     img: t("loggan.img"),
     description: t("loggan.description"),
     link: t("loggan.link"),
-    stacks: nls["logganStacks"],
+    stacks: stacks["logganStacks"],
   },
   {
     id: "nst",
@@ -34,7 +34,7 @@ let works = [
     img: t("nst.img"),
     description: t("nst.description"),
     link: t("nst.link"),
-    stacks: nls["nstStacks"],
+    stacks: stacks["nstStacks"],
   },
   {
     id: "theea",
@@ -42,7 +42,7 @@ let works = [
     img: t("theea.img"),
     description: t("theea.description"),
     link: t("theea.link"),
-    stacks: nls["theeaStacks"],
+    stacks: stacks["theeaStacks"],
   },
   {
     id: "affix",
@@ -50,7 +50,7 @@ let works = [
     img: t("affix.img"),
     description: t("affix.description"),
     link: t("affix.link"),
-    stacks: nls["affixStacks"],
+    stacks: stacks["affixStacks"],
   },
   {
     id: "hyphip",
@@ -58,7 +58,7 @@ let works = [
     img: t("hyphip.img"),
     description: t("hyphip.description"),
     link: t("hyphip.link"),
-    stacks: nls["hyphipStacks"],
+    stacks: stacks["hyphipStacks"],
   },
 ];
 watch(locale, (newLocale) => {

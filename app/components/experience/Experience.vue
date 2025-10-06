@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { TabsItem } from "@nuxt/ui";
 import { useWindowSize } from "@vueuse/core";
-import nls from "@/assets/json/nls.json";
+import stacks from "@/assets/json/projects-stacks.json";
 const { width } = useWindowSize();
 const { locale, t } = useI18n();
 let items = [
@@ -11,7 +11,7 @@ let items = [
     date: t("3dnotification.date"),
     title: t("3dnotification.title"),
     description: t("3dnotification.description"),
-    stacks: nls["3dnotificationStacks"],
+    stacks: stacks["3dnotificationStacks"],
   },
   {
     id: "djidji",
@@ -19,7 +19,7 @@ let items = [
     date: t("djidji.date"),
     title: t("djidji.title"),
     description: t("djidji.description"),
-    stacks: nls.djidjiStacks,
+    stacks: stacks.djidjiStacks,
   },
 ] satisfies TabsItem[];
 watch(locale, (newLocale) => {
