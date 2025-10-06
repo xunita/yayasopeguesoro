@@ -1,3 +1,5 @@
 <template>
-  <ULink to="/"><HomeHeaderPartsLogo size="size-14" /></ULink>
+  <ClientOnly>
+    <ULink to="/"><HomeHeaderPartsLogo size="size-14" /></ULink>
+  </ClientOnly>
 </template>

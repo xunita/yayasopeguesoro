@@ -4,9 +4,7 @@ const { t, locale } = useI18n();
 const { y } = useWindowScroll();
 useHead({
   title: `${t("title")}`,
-  meta: [
-    { name: "description", content: t("metaDescription") },
-  ],
+  meta: [{ name: "description", content: t("metaDescription") }],
   htmlAttrs: {
     lang: locale.value,
   },
@@ -17,6 +15,7 @@ const scrollToTop = () => {
 };
 </script>
 <template>
+  <NuxtLoadingIndicator />
   <UApp>
     <div class="w-full h-screen relative">
       <HomeBody />

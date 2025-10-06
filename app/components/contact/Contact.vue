@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import type { FormError, FormSubmitEvent } from "@nuxt/ui";
 import { useDateFormat, useNow } from "@vueuse/core";
-import emailjs from "@emailjs/browser";
 import isEmail from "validator/lib/isEmail";
 const formatted = useDateFormat(useNow(), "YYYY-MM-DD HH:mm:ss");
 const sending = ref(false);
@@ -25,19 +24,16 @@ const validate = (state: any): FormError[] => {
 
 const toast = useToast();
 const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
-  const config = useRuntimeConfig();
-  const YOUR_TEMPLATE_ID = config.public.YOUR_TEMPLATE_ID;
-  const YOUR_SERVICE_ID = config.public.YOUR_SERVICE_ID;
-  const YOUR_PUBLIC_KEY = config.public.YOUR_PUBLIC_KEY;
-  //
   toast.clear();
   sending.value = true;
-  emailjs
-    .send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, event.data, {
-      publicKey: YOUR_PUBLIC_KEY,
-    })
-    .then(
-      (response) => {
+
+  $fetch("/api/emailjs", {
+    method: "post",
+    body: event.data,
+  })
+    .then((response) => {
+      if (response.success) {
+        console.log(response);
         toast.add({
           description: t("messageSent"),
           color: "neutral",
@@ -47,14 +43,21 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
         state.name = undefined;
         state.email = undefined;
         state.message = undefined;
-      },
-      (err) => {
+      } else {
+        console.log(response);
         toast.add({
           description: t("errorSending"),
           color: "error",
         });
       }
-    )
+    })
+    .catch((error) => {
+      console.log(error);
+      toast.add({
+        description: t("errorSending"),
+        color: "error",
+      });
+    })
     .finally(() => {
       sending.value = false;
     });
@@ -114,19 +117,20 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
             }"
           />
         </UFormField>
-
-        <UButton
-          :disabled="sending"
-          size="xl"
-          color="neutral"
-          variant="outline"
-          :ui="{
-            base: 'w-fit ring-0 hover:!bg-transparent border-2 rounded-none cursor-pointer px-10 py-4',
-          }"
-          type="submit"
-        >
-          {{ $t("send") }}
-        </UButton>
+        <ClientOnly>
+          <UButton
+            :disabled="sending"
+            size="xl"
+            color="neutral"
+            variant="outline"
+            :ui="{
+              base: 'w-fit ring-0 hover:!bg-transparent border-2 rounded-none cursor-pointer px-10 py-4',
+            }"
+            type="submit"
+          >
+            {{ $t("send") }}
+          </UButton>
+        </ClientOnly>
       </UForm>
     </div>
   </HomeBodySection>

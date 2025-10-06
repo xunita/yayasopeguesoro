@@ -3,10 +3,13 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
   runtimeConfig: {
+    emailjsTemplateId: "",
+    emailjsServiceId: "",
+    emailjsPublicKey: "",
     public: {
-      YOUR_TEMPLATE_ID: process.env.YOUR_TEMPLATE_ID,
-      YOUR_SERVICE_ID: process.env.YOUR_SERVICE_ID,
-      YOUR_PUBLIC_KEY: process.env.YOUR_PUBLIC_KEY,
+      // YOUR_TEMPLATE_ID: process.env.YOUR_TEMPLATE_ID,
+      // YOUR_SERVICE_ID: process.env.YOUR_SERVICE_ID,
+      // YOUR_PUBLIC_KEY: process.env.YOUR_PUBLIC_KEY,
     },
   },
   app: {
@@ -48,7 +51,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  ssr: false,
+  ssr: true,
   css: ["~/assets/css/yayasopegue.css", "~/assets/css/tailwind.css"],
   modules: [
     "@nuxt/eslint",
