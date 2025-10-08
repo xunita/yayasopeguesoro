@@ -26,6 +26,15 @@
     "EmailJs",
     "Netlify"
   ],
+  "sbandroidStacks": [
+    "Android",
+    "Termux",
+    "Java",
+    "Spring Boot CLI",
+    "MySQL (Aiven)",
+    "Git",
+    "GitHub"
+  ],
 
   "mjaiStacks": [
     "Nuxt 3 (Nuxt UI, etc.)",
@@ -53,6 +62,7 @@
     "Node.js",
     "Express",
     "Socket.io",
+    "MySQL (Aiven)",
     "Docker",
     "Git",
     "GitHub",

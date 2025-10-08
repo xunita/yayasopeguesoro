@@ -38,6 +38,12 @@
     "link": "/",
     "description": "This portfolio was developed to showcase my skills as a developer, along with the projects and professional experiences that stem from them."
   },
+  "sbandroid": {
+    "title": "Spring Boot app on Android",
+    "iframe_link": "https://www.youtube-nocookie.com/embed/0gmXsyyDDnU?si=pDSzchUBDKb2NQu7",
+    "link": "https://youtu.be/0gmXsyyDDnU",
+    "description": "A simple todo app connected to a MySQL database, developed with Spring Boot and running on an android phone."
+  },
   "mjai": {
     "title": "JSON mock AI",
     "img": "/images/mjai.png",

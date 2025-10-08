@@ -4,9 +4,7 @@ const { t, locale } = useI18n();
 const { y } = useWindowScroll();
 useHead({
   title: `${t("title")}`,
-  meta: [
-    { name: "description", content: t("metaDescription") },
-  ],
+  meta: [{ name: "description", content: t("metaDescription") }],
   htmlAttrs: {
     lang: locale.value,
   },

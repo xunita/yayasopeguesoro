@@ -12,6 +12,15 @@ let works = [
     stacks: stacks["yayasopeguesoroStacks"],
   },
   {
+    id: "sbandroid",
+    title: t("sbandroid.title"),
+    iframe: true,
+    link: t("sbandroid.link"),
+    iframe_link: t("sbandroid.iframe_link"),
+    description: t("sbandroid.description"),
+    stacks: stacks["sbandroidStacks"],
+  },
+  {
     id: "mjai",
     label: "mjai Center",
     title: t("mjai.title"),
