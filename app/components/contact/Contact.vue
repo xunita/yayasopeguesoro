@@ -72,16 +72,6 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
         class="space-y-4 w-full"
         @submit="onSubmit"
       >
-        <UFormField :label="$t('object')" name="title" class="w-full">
-          <UInput
-            v-model="state.title"
-            color="neutral"
-            class="w-full"
-            :ui="{
-              base: 'rounded-none',
-            }"
-          />
-        </UFormField>
         <UFormField :label="$t('nameContact')" name="name" class="w-full">
           <UInput
             v-model="state.name"
@@ -95,6 +85,16 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
         <UFormField label="Email" name="email" class="w-full" required>
           <UInput
             v-model="state.email"
+            color="neutral"
+            class="w-full"
+            :ui="{
+              base: 'rounded-none',
+            }"
+          />
+        </UFormField>
+        <UFormField :label="$t('object')" name="title" class="w-full">
+          <UInput
+            v-model="state.title"
             color="neutral"
             class="w-full"
             :ui="{
