@@ -32,6 +32,12 @@
     "title": "Développeur Full Stack",
     "description": "La 3DNotification Center est une application de gestion des notifications pour les applications 3DEXPERIENCE (plateforme d'affaires de Dassault Systèmes). Dans le cadre de l'obtention de mon diplôme de master, j'ai travaillé, en collaboration avec l'équipe 3DNotification et 3DMessaging sur la refonte du front-end et de l'optimisation du back-end du Notification Center. Les technologies principales utilisées dans la refonte du 3DNotification Center sont:"
   },
+  "salyeo": {
+    "link":"https://salyeo.netlify.app",
+    "img":"/images/salyeo.jpg",
+    "title": "Salyeo (En cours de développement)",
+    "description": "Salyeo est une boutique en ligne de vente de pagnes wax en Côte d’Ivoire, que je développe actuellement pour un membre de la famille."
+  },
   "yayasopeguesoro": {
     "title": "Site Web Portfolio",
     "img": "/images/yayasopeguesoro.png",
