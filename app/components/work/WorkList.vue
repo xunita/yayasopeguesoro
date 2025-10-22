@@ -4,6 +4,14 @@ import stacks from "@/assets/json/projects-stacks.json";
 const { locale, t } = useI18n();
 let works = [
   {
+    id: "salyeo",
+    title: t("salyeo.title"),
+    img: t("salyeo.img"),
+    description: t("salyeo.description"),
+    link: t("salyeo.link"),
+    stacks: stacks["salyeoStacks"],
+  },
+  {
     id: "yayasopeguesoro",
     title: t("yayasopeguesoro.title"),
     img: t("yayasopeguesoro.img"),
