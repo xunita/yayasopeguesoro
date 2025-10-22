@@ -1,5 +1,6 @@
 {
   "djidjiStacks": [
+    "HTML5/CSS3/JavaScript",
     "Vue 2 (Hooks, Vuex & TailwindCSS)",
     "Laravel",
     "PostgreSQL",
@@ -9,6 +10,7 @@
     "GitHub"
   ],
   "3dnotificationStacks": [
+    "HTML5/CSS3/JavaScript",
     "Vue 3 (Hooks & Pinia)",
     "Node.js",
     "Express",
@@ -19,7 +21,16 @@
     "Software Pipeline (Dassault Systèmes DevOps)",
     "Kibana"
   ],
+  "salyeoStacks": [
+    "HTML5/CSS3/JavaScript",
+    "Nuxt 4 (Nuxt UI, etc.)",
+    "i18n",
+    "Git",
+    "GitHub",
+    "Netlify CLI"
+  ],
   "yayasopeguesoroStacks": [
+    "HTML5/CSS3/JavaScript",
     "Nuxt 4 (Nuxt UI, etc.)",
     "Git",
     "GitHub",
@@ -37,6 +48,7 @@
   ],
 
   "mjaiStacks": [
+    "HTML5/CSS3/JavaScript",
     "Nuxt 3 (Nuxt UI, etc.)",
     "Node.js",
     "Express",
@@ -46,8 +58,9 @@
     "Azure (Web App, DevOps & AI)",
     "Netlify"
   ],
-  "logganStacks": ["Nuxt 3 (Nuxt UI, etc.)", "Git", "GitHub", "Netlify"],
+  "logganStacks": ["HTML5/CSS3/JavaScript", "Nuxt 3 (Nuxt UI, etc.)", "Git", "GitHub", "Netlify"],
   "nstStacks": [
+    "HTML5/CSS3/JavaScript",
     "Nuxt 3 (Nuxt UI, etc.)",
     "Node.js",
     "Express",
@@ -58,6 +71,7 @@
     "Netlify"
   ],
   "theeaStacks": [
+    "HTML5/CSS3/JavaScript",
     "Vue 3 (Hooks, Pinia & TailwindCSS)",
     "Node.js",
     "Express",
@@ -70,6 +84,7 @@
     "Netlify"
   ],
   "affixStacks": [
+    "HTML5/CSS3/JavaScript",
     "Vue 3 (Hooks, Pinia & TailwindCSS)",
     "Node.js",
     "Express",
@@ -79,5 +94,5 @@
     "Azure (Web App, DevOps & AI)",
     "Netlify"
   ],
-  "hyphipStacks": ["Nuxt 2", "Firebase/Firestore", "Git", "GitHub", "Netlify"]
+  "hyphipStacks": ["HTML5/CSS3/JavaScript", "Nuxt 2", "Firebase/Firestore", "Git", "GitHub", "Netlify"]
 }
