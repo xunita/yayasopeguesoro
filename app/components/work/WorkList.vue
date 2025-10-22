@@ -98,7 +98,7 @@ watch(locale, (newLocale) => {
       :work="work"
       class="self-center min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10 py-10"
       :class="{
-        'border-t border-white': work.id !== 'yayasopeguesoro',
+        'border-t border-white': work.id !== 'salyeo',
       }"
     />
   </div>
