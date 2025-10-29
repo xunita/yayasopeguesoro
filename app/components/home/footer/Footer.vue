@@ -1,4 +1,4 @@
-<script setup lang="ts"></script>
+²<script setup lang="ts"></script>
 
 <template>
   <UFooter
@@ -35,14 +35,14 @@
         target="_blank"
         aria-label="LinkedIn"
       />
-      <ULink
+      <UButton
+        icon="line-md:linkedin"
         color="neutral"
         variant="ghost"
-        to="mailto:yso@yayasopeguesoro.space"
-        aria-label="Email"
-      >
-        <UIcon name="lucide:envelope" />
-        </ULink>
+        to="https://linkedin.com/in/sopoude"
+        target="_blank"
+        aria-label="LinkedIn"
+      />
     </template>
   </UFooter>
 </template>
