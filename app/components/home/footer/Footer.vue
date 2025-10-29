@@ -36,7 +36,7 @@
         aria-label="LinkedIn"
       />
       <UButton
-        icon="line-md:envelope"
+        icon="lucide:envelope"
         color="neutral"
         variant="ghost"
         to="mailto:yso@yayasopeguesoro.space"
