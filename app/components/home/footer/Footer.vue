@@ -36,7 +36,7 @@
         aria-label="LinkedIn"
       />
       <UButton
-        icon="line-md:linkedin"
+        icon="line-md:email"
         color="neutral"
         variant="ghost"
         to="https://linkedin.com/in/sopoude"
