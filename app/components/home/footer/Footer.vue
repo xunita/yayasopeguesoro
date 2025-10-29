@@ -1,5 +1,4 @@
-²<script setup lang="ts"></script>
-
+<script setup lang="ts"></script>
 <template>
   <UFooter
     class="min-md:w-2/6 max-w-[720px] w-full mx-auto border-t border-gray-200"
@@ -39,9 +38,9 @@
         icon="line-md:email"
         color="neutral"
         variant="ghost"
-        to="https://linkedin.com/in/sopoude"
+        to="mailto:yso@yayasopeguesoro.space"
         target="_blank"
-        aria-label="LinkedIn"
+        aria-label="Email"
       />
     </template>
   </UFooter>
