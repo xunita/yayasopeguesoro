@@ -39,7 +39,6 @@
         color="neutral"
         variant="ghost"
         to="mailto:yso@yayasopeguesoro.space"
-        target="_blank"
         aria-label="Email"
       />
     </template>
