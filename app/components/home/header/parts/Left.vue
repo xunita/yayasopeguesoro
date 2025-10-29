@@ -1,3 +1,3 @@
 <template>
-  <ULink to="/"><HomeHeaderPartsLogo size="size-14" /></ULink>
+  <ULink :to="$localePath('/')"><HomeHeaderPartsLogo size="size-14" /></ULink>
 </template>
