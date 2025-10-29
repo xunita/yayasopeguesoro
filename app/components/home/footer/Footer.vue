@@ -36,12 +36,11 @@
         aria-label="LinkedIn"
       />
       <UButton
-        icon="lucide:envelope"
+        icon="i-lucide-envelope"
         color="neutral"
         variant="ghost"
         to="mailto:yso@yayasopeguesoro.space"
-        target="_blank"
-        aria-label="Yaya Sopegue Email"
+        aria-label="Email"
       />
     </template>
   </UFooter>
