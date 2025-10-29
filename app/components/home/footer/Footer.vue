@@ -35,14 +35,14 @@
         target="_blank"
         aria-label="LinkedIn"
       />
-      <UButton
+      <ULink
         color="neutral"
         variant="ghost"
         to="mailto:yso@yayasopeguesoro.space"
         aria-label="Email"
       >
         <UIcon name="lucide:envelope" />
-        </UButton>
+        </ULink>
     </template>
   </UFooter>
 </template>
