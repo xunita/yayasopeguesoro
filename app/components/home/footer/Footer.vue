@@ -36,12 +36,13 @@
         aria-label="LinkedIn"
       />
       <UButton
-        icon="i-lucide-envelope"
         color="neutral"
         variant="ghost"
         to="mailto:yso@yayasopeguesoro.space"
         aria-label="Email"
-      />
+      >
+        <UIcon name="lucide:envelope" />
+        </UButton>
     </template>
   </UFooter>
 </template>
