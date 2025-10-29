@@ -35,6 +35,14 @@
         target="_blank"
         aria-label="LinkedIn"
       />
+      <UButton
+        icon="line-md:envelope"
+        color="neutral"
+        variant="ghost"
+        to="mailto:yso@yayasopeguesoro.space"
+        target="_blank"
+        aria-label="Yaya Sopegue Email"
+      />
     </template>
   </UFooter>
 </template>
