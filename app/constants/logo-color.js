@@ -1,2 +1,2 @@
-const color = "#002651";
+const color = "#0F172B";
 export { color };
