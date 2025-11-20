@@ -42,6 +42,7 @@ const items = computed<NavigationMenuItem[]>(() => [
       :items="items"
       :orientation="orientation"
     />
+    <UColorModeButton />
     <Language />
   </div>
 </template>
