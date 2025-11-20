@@ -27,7 +27,7 @@
       <div
         id="contact"
         v-motion-slide-visible-once-bottom
-        class="w-full flex justify-center scroll-mt-15"
+        class="w-full flex justify-center scroll-mt-15 border-t border-gray-200"
       >
         <Contact />
       </div>
