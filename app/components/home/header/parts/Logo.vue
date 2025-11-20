@@ -7,5 +7,5 @@ const props = defineProps({
 });
 </script>
 <template>
-  <UIcon name="sopegue-icon:logo" :class="size" />
+  <UIcon name="sopegue-icon:logo" :class="dark:text-white" />
 </template>
