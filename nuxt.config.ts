@@ -66,9 +66,6 @@ export default defineNuxtConfig({
       },
     ],
   },
-  ui: {
-    colorMode: false,
-  },
   image: {
     quality: 60,
     format: ["avif", "webp", "jpeg", "jpg", "png", "svg"],
