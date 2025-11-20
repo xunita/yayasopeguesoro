@@ -7,5 +7,5 @@ const props = defineProps({
 });
 </script>
 <template>
-  <UIcon name="lucide:arrow-down-left" :class="size" class="dark:!text-white" />
+  <UIcon name="lucide:arrow-down-left" :class="size" class="dark:text-white light:text-[#0F172B]" />
 </template>
