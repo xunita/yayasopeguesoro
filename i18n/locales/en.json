@@ -1,5 +1,8 @@
 {
   "about": "About",
+  "mock": "UI Mock",
+  "done": "Done",
+  "progress": "In progress",
   "experience": "Experience",
   "contact": "Contact",
   "RecentProjects": "Recent Projects",
