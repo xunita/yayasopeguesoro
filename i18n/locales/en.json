@@ -5,7 +5,7 @@
   "progress": "In progress",
   "experience": "Experience",
   "contact": "Contact",
-  "RecentProjects": "Recent Projects",
+  "RecentProjects": "Recent Projects (selected)",
   "projects": "Projects",
   "title": "Full Stack Developer, Evry-Courcouronnes, France - Yaya Sopegue Soro",
   "metaDescription": "Welcome to the portfolio of Yaya Sopegue Soro, a full stack developer based in France. Discover his recent projects, professional experience, and how to contact him for collaboration opportunities.",
@@ -33,7 +33,7 @@
   "salyeo": {
     "link":"https://salyeo.netlify.app",
     "img":"/images/salyeo.jpg",
-    "title": "Salyeo (Still in development)",
+    "title": "Salyeo",
     "description": "Salyeo is a shop website for selling wax fabric in Côte d’Ivoire, which is being developed for a family member."
   },
   "3dnotification": {
