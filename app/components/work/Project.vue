@@ -41,7 +41,11 @@ const openLink = () => {
       >
     </div>
 
-    <NuxtImg
+    <div class="relative">
+      <UBadge v-if="work.status" size="md" :color="work.badge" variant="solid" class="text-white absolute top-1 right-1">
+        {{ $t(work.status) }}
+      </UBadge>
+      <NuxtImg
       v-if="!work.iframe"
       target="_blank"
       :src="work.img ?? '/images/notfound.png'"
@@ -67,5 +71,6 @@ const openLink = () => {
       allowfullscreen
       style="aspect-ratio: 16/9; width: 100%"
     ></iframe>
+    </div>
   </div>
 </template>
