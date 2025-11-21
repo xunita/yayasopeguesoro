@@ -42,7 +42,7 @@ const openLink = () => {
     </div>
 
     <div class="relative">
-      <UBadge v-if="work.status" size="md" :color="work.badge" variant="solid" class="text-white absolute top-1 right-1">
+      <UBadge v-if="work.status" size="md" :color="work.badge" variant="solid" class="text-white absolute top-2 right-2">
         {{ $t(work.status) }}
       </UBadge>
       <NuxtImg
