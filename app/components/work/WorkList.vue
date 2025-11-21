@@ -9,6 +9,8 @@ let works = [
     img: t("salyeo.img"),
     description: t("salyeo.description"),
     link: t("salyeo.link"),
+    status: "progress",
+    badge: "warning",
     stacks: stacks["salyeoStacks"],
   },
   {
@@ -17,6 +19,8 @@ let works = [
     img: t("yayasopeguesoro.img"),
     description: t("yayasopeguesoro.description"),
     link: t("yayasopeguesoro.link"),
+    status: "done",
+    badge: "primary",
     stacks: stacks["yayasopeguesoroStacks"],
   },
   {
@@ -35,6 +39,8 @@ let works = [
     img: t("mjai.img"),
     description: t("mjai.description"),
     link: t("mjai.link"),
+    status: "done",
+    badge: "primary",
     stacks: stacks["mjaiStacks"],
   },
   {
@@ -43,6 +49,8 @@ let works = [
     img: t("loggan.img"),
     description: t("loggan.description"),
     link: t("loggan.link"),
+    status: "mock",
+    badge: "secondary",
     stacks: stacks["logganStacks"],
   },
   {
@@ -51,6 +59,8 @@ let works = [
     img: t("nst.img"),
     description: t("nst.description"),
     link: t("nst.link"),
+    status: "done",
+    badge: "primary",
     stacks: stacks["nstStacks"],
   },
   {
@@ -59,6 +69,8 @@ let works = [
     img: t("theea.img"),
     description: t("theea.description"),
     link: t("theea.link"),
+    status: "done",
+    badge: "primary",
     stacks: stacks["theeaStacks"],
   },
   {
@@ -67,6 +79,8 @@ let works = [
     img: t("affix.img"),
     description: t("affix.description"),
     link: t("affix.link"),
+    status: "done",
+    badge: "primary",
     stacks: stacks["affixStacks"],
   },
   {
@@ -75,6 +89,8 @@ let works = [
     img: t("hyphip.img"),
     description: t("hyphip.description"),
     link: t("hyphip.link"),
+    status: "done",
+    badge: "primary",
     stacks: stacks["hyphipStacks"],
   },
 ];
