@@ -8,7 +8,7 @@
   "projects": "Projets",
   "title": "Développeur Full Stack, Evry-Courcouronnes, France - Yaya Sopegue Soro",
   "metaDescription": "Bienvenue sur le portfolio de Yaya Sopegue Soro, développeur full stack basé en France. Découvrez ses projets récents, son expérience professionnelle et comment le contacter pour des opportunités de collaboration.",
-  "RecentProjects": "Projets Récents",
+  "RecentProjects": "Projets Récents (sélectionnés)",
   "hiMyNameIs": "Salut, je m'appelle",
   "webSoftwareEngineerInFrance": "Développeur Full Stack en France",
   "getInTouch": "Envoyer un message",
@@ -38,7 +38,7 @@
   "salyeo": {
     "link":"https://salyeo.netlify.app",
     "img":"/images/salyeo.jpg",
-    "title": "Salyeo (En cours de développement)",
+    "title": "Salyeo",
     "description": "Salyeo est une boutique en ligne de vente de pagnes wax en Côte d’Ivoire, que je développe actuellement pour un membre de la famille."
   },
   "yayasopeguesoro": {
