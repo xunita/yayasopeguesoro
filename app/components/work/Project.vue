@@ -13,7 +13,7 @@ const openLink = () => {
 <template>
   <div class="flex lg:flex-row flex-col items-center gap-10">
     <div class="flex flex-col gap-4">
-      <span class="font-bold text-3xl">
+      <span class="font-bold text-2xl">
         {{ work.title.toUpperCase() ?? "??" }}
       </span>
       <div>{{ work.description ?? "??" }}</div>
