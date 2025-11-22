@@ -3,6 +3,7 @@
     "HTML5/CSS3/JavaScript",
     "Vue 2 (Hooks, Vuex & TailwindCSS)",
     "Laravel",
+    "Webpack",
     "PostgreSQL",
     "Heroku",
     "Netlify",
@@ -12,6 +13,8 @@
   "3dnotificationStacks": [
     "HTML5/CSS3/JavaScript",
     "Vue 3 (Hooks & Pinia)",
+    "Vite",
+    "Vitest",
     "Node.js",
     "Express",
     "Socket.io",
@@ -24,6 +27,9 @@
   "salyeoStacks": [
     "HTML5/CSS3/JavaScript",
     "Nuxt 4 (Nuxt UI, etc.)",
+    "Vite",
+    "Vitest/Cypress",
+    "Nitro",
     "i18n",
     "Git",
     "GitHub",
@@ -32,6 +38,8 @@
   "yayasopeguesoroStacks": [
     "HTML5/CSS3/JavaScript",
     "Nuxt 4 (Nuxt UI, etc.)",
+    "Vite",
+    "Nitro",
     "Git",
     "GitHub",
     "EmailJs",
@@ -50,6 +58,8 @@
   "mjaiStacks": [
     "HTML5/CSS3/JavaScript",
     "Nuxt 3 (Nuxt UI, etc.)",
+    "Vite",
+    "Nitro",
     "Node.js",
     "Express",
     "Docker",
@@ -58,10 +68,20 @@
     "Azure (Web App, DevOps & AI)",
     "Netlify"
   ],
-  "logganStacks": ["HTML5/CSS3/JavaScript", "Nuxt 3 (Nuxt UI, etc.)", "Git", "GitHub", "Netlify"],
+  "logganStacks": [
+    "HTML5/CSS3/JavaScript", 
+    "Nuxt 3 (Nuxt UI, etc.)",
+    "Vite",
+    "Nitro",
+    "Git", 
+    "GitHub", 
+    "Netlify"
+  ],
   "nstStacks": [
     "HTML5/CSS3/JavaScript",
     "Nuxt 3 (Nuxt UI, etc.)",
+    "Vite",
+    "Nitro",
     "Node.js",
     "Express",
     "Docker",
@@ -73,6 +93,7 @@
   "theeaStacks": [
     "HTML5/CSS3/JavaScript",
     "Vue 3 (Hooks, Pinia & TailwindCSS)",
+    "Vite",
     "Node.js",
     "Express",
     "Socket.io",
@@ -86,6 +107,7 @@
   "affixStacks": [
     "HTML5/CSS3/JavaScript",
     "Vue 3 (Hooks, Pinia & TailwindCSS)",
+    "Vite",
     "Node.js",
     "Express",
     "Docker",
@@ -94,5 +116,13 @@
     "Azure (Web App, DevOps & AI)",
     "Netlify"
   ],
-  "hyphipStacks": ["HTML5/CSS3/JavaScript", "Nuxt 2", "Firebase/Firestore", "Git", "GitHub", "Netlify"]
+  "hyphipStacks": [
+    "HTML5/CSS3/JavaScript", 
+    "Nuxt 2",
+    "Webpack",
+    "Firebase/Firestore", 
+    "Git", 
+    "GitHub", 
+    "Netlify"
+  ]
 }
