@@ -9,8 +9,8 @@ let works = [
     img: t("salyeo.img"),
     description: t("salyeo.description"),
     link: t("salyeo.link"),
-    status: "progress",
-    badge: "warning",
+    status: "paused",
+    badge: "neutral",
     stacks: stacks["salyeoStacks"],
   },
   {
