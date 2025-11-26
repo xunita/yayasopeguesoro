@@ -45,7 +45,13 @@ const loadFallbackImg = (event) => {
     </div>
 
     <div class="relative">
-      <UBadge v-if="work.status" size="md" :color="work.badge" variant="solid" class="text-white absolute top-2 right-2">
+      <UBadge 
+        v-if="work.status" 
+        size="md" 
+        :color="work.badge" 
+        variant="solid" 
+        class="text-white absolute top-2 right-2"
+        :class="{'bg-default border border-default text-default': work.status === 'paused' }">
         {{ $t(work.status) }}
       </UBadge>
       <NuxtImg
