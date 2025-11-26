@@ -89,6 +89,26 @@
     "link": "https://hyphip.netlify.app",
     "description": "Hyphip est un site web d'hébergement et de partage de fichiers que j'ai développé dans le but de pouvoir intégrer directement ces fichiers dans les balises htmls dédiées de mes projets."
   },
+  "guess": {
+    "title": "Devine le nombre",
+    "description": "Une simple application web où l’utilisateur devine un nombre entre un minimum et un maximum."
+  },
+  "moyenne": {
+    "title": "Pourquoi ma moyenne ?",
+    "description": "C’est une simple application web qui permet de simuler ta moyenne en classe (par exemple, pour simuler une moyenne potentielle avec des notes pas encore reçues)."
+  },
+  "ofaloo": {
+    "title": "Ofaloo",
+    "description": "Ofaloo est un site immobilier que j’ai développé comme moyen de pratiquer mes compétences fullstack qui permet d’envoyer un message aux agents immobiliers pour acheter/louer des maisons."
+  },
+  "kcs": {
+    "title": "Boutique en ligne Kylie Jenner Cosmetics",
+    "description": "Cette application est une maquette de la page d’accueil de la boutique Kylie Jenner Cosmetics."
+  },
+  "waloo": {
+    "title": "Waloo",
+    "description": "Waloo est une maquette d’une idée regroupant toutes les plateformes africaines de e-commerce en un seul site que j’ai développée pour pratiquer mes compétences frontend."
+  },
   "required": "Champ obligatoire",
   "emailInvalid": "Ceci n'est pas un email valide",
   "object": "Objet",
