@@ -9,6 +9,9 @@ const props = defineProps({
 const openLink = () => {
   window.open(props.work.link ?? "#", "_blank");
 };
+const loadFallbackImg = (event) => {
+  event.target.src = "/images/project_fallback.jpg";
+};
 </script>
 <template>
   <div class="flex lg:flex-row flex-col items-center gap-10">
@@ -55,6 +58,7 @@ const openLink = () => {
       loading="lazy"
       width="624"
       height="351"
+      @error="loadFallbackImg"
       @click="openLink"
     />
     <iframe
