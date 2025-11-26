@@ -92,11 +92,11 @@
   },
   "guess": {
     "title": "Guess the number",
-    "description": "A simple game web app where user guesses a number between a min and a max."
+    "description": "Website app where user guesses a number between a min and a max."
   },
   "moyenne": {
     "title": "Why my average ?",
-    "description": "It is a simple website app that allows you to simulate your average in class (for eg, to simulate a potential achievable average which subjects marks not received yet)."
+    "description": "Website app that allows you to simulate an average of your marks in class (for eg, to simulate a potential achievable average which subjects marks not received yet)."
   },
   "ofaloo": {
     "title": "Ofaloo",
@@ -104,7 +104,7 @@
   },
   "kcs": {
     "title": "Kylie Jenner Cosmetics Online Shop",
-    "description": "This app is a mock up of the front page of the website of Kylie Jenner Cosmetics Shop."
+    "description": "Mock up website of the front page of the website of Kylie Jenner Cosmetics Shop."
   },
   "waloo": {
     "title": "Waloo",
