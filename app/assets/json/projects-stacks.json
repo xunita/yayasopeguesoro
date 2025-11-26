@@ -125,5 +125,48 @@
     "Git", 
     "GitHub", 
     "Netlify"
-  ]
+  ],
+  "guessStacks": [
+    "HTML5/CSS3/JavaScript",
+    "Nuxt 2 (Tailwindcss, etc.)",
+    "Webpack",
+    "Netlify",
+    "Git",
+    "GitHub"
+  ],
+  "moyenneStacks": [
+    "HTML5/CSS3/JavaScript",
+    "Vue 2 (Hooks, Vuex & TailwindCSS)",
+    "Webpack",
+    "Netlify",
+    "Git",
+    "GitHub"
+  ],
+  "ofalooStacks": [
+    "HTML5/CSS3/JavaScript",
+    "Nuxt 2 (Hooks, TailwindCSS, etc.)",
+    "Laravel",
+    "Webpack",
+    "PostgreSQL",
+    "Heroku",
+    "Netlify",
+    "Git",
+    "GitHub"
+  ],
+  "kcsStacks": [
+    "HTML5/CSS3/JavaScript",
+    "Nuxt 2 (TailwindCSS, etc.)",
+    "Webpack",
+    "Netlify",
+    "Git",
+    "GitHub"
+  ],
+  "walooStacks": [
+    "HTML5/CSS3/JavaScript",
+    "Nuxt 2 (TailwindCSS, etc.)",
+    "Webpack",
+    "Netlify",
+    "Git",
+    "GitHub"
+  ],
 }
