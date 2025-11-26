@@ -99,15 +99,15 @@
   },
   "ofaloo": {
     "title": "Ofaloo",
-    "description": "Ofaloo est un site immobilier que j’ai développé comme moyen de pratiquer mes compétences fullstack qui permet d’envoyer un message aux agents immobiliers pour acheter/louer des maisons."
+    "description": "Ofaloo est un site immobilier que j’ai développé pour pratiquer mes compétences de développeur fullstack, qui permet d’envoyer un message aux agents immobiliers pour acheter/louer des maisons."
   },
   "kcs": {
     "title": "Boutique en ligne Kylie Jenner Cosmetics",
-    "description": "Cette application est une maquette de la page d’accueil de la boutique Kylie Jenner Cosmetics."
+    "description": "Ce site est une maquette de la page d’accueil de la boutique Kylie Jenner Cosmetics."
   },
   "waloo": {
     "title": "Waloo",
-    "description": "Waloo est une maquette d’une idée regroupant toutes les plateformes africaines de e-commerce en un seul site que j’ai développée pour pratiquer mes compétences frontend."
+    "description": "Waloo est une maquette d’une idée regroupant toutes les plateformes africaines de e-commerce en un seul site que j’ai développée pour pratiquer mes compétences de développeur frontend."
   },
   "required": "Champ obligatoire",
   "emailInvalid": "Ceci n'est pas un email valide",
