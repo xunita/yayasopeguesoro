@@ -133,6 +133,16 @@ let works = [
     badge: "secondary",
     stacks: stacks["kcsStacks"],
   },
+  {
+    id: "waloo",
+    title: t("waloo.title"),
+    img: "/images/waloo.png",
+    description: t("waloo.description"),
+    link: "https://waloocom.netlify.app",
+    status: "mock",
+    badge: "secondary",
+    stacks: stacks["walooStacks"],
+  },
 ];
 watch(locale, (newLocale) => {
   works = works.map((work) => {
