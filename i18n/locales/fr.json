@@ -92,11 +92,11 @@
   },
   "guess": {
     "title": "Devine le nombre",
-    "description": "Une simple application web où l’utilisateur devine un nombre entre un minimum et un maximum."
+    "description": "Site web où l’utilisateur devine un nombre entre un minimum et un maximum."
   },
   "moyenne": {
     "title": "Pourquoi ma moyenne ?",
-    "description": "C’est une simple application web qui permet de simuler ta moyenne en classe (par exemple, pour simuler une moyenne potentielle avec des notes pas encore reçues)."
+    "description": "Site web permettant de simuler une moyenne de classe (par exemple, simuler une moyenne potentielle avec des notes pas encore reçues)."
   },
   "ofaloo": {
     "title": "Ofaloo",
@@ -104,7 +104,7 @@
   },
   "kcs": {
     "title": "Boutique en ligne Kylie Jenner Cosmetics",
-    "description": "Ce site est une maquette de la page d’accueil de la boutique Kylie Jenner Cosmetics."
+    "description": "Site web maquette de la page d’accueil de la boutique Kylie Jenner Cosmetics."
   },
   "waloo": {
     "title": "Waloo",
