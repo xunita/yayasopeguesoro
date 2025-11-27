@@ -143,6 +143,16 @@ let works = [
     badge: "secondary",
     stacks: stacks["walooStacks"],
   },
+  {
+    id: "pincasse",
+    title: t("pincasse.title"),
+    img: "/images/pincasse.png",
+    description: t("pincasse.description"),
+    link: "https://pincasse.netlify.app",
+    status: "abandoned",
+    badge: "error",
+    stacks: stacks["pincasseStacks"],
+  },
 ];
 watch(locale, (newLocale) => {
   works = works.map((work) => {
