@@ -168,5 +168,13 @@
     "Netlify",
     "Git",
     "GitHub"
+  ],
+  "pincasseStacks": [
+    "HTML5/CSS3/JavaScript",
+    "Nuxt 2 (TailwindCSS, etc.)",
+    "Webpack",
+    "Netlify",
+    "Git",
+    "GitHub"
   ]
 }
