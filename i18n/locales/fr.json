@@ -2,6 +2,7 @@
   "about": "À propos",
   "mock": "Mock UI",
   "paused": "En pause",
+  "abandoned": "Abandonné" 
   "done": "Terminé",
   "progress": "En cours",
   "experience": "Expériences",
@@ -109,6 +110,10 @@
   "waloo": {
     "title": "Waloo",
     "description": "Waloo est une maquette d’une idée regroupant toutes les plateformes africaines de e-commerce en un seul site que j’ai développée pour pratiquer mes compétences de développeur frontend."
+  },
+  "pincasse": {
+    "title": "Pincasse",
+    "description": "YouTube mais pour les développeurs (projet jamais débuté)"
   },
   "required": "Champ obligatoire",
   "emailInvalid": "Ceci n'est pas un email valide",
