@@ -174,7 +174,7 @@ watch(locale, (newLocale) => {
       :work="work"
       class="self-center w-full max-w-[1080px] md:px-20 px-10"
       :class="{
-        'pb-10': work.id !== 'pincasse'
+        'pb-5': work.id !== 'pincasse'
       }"
     />
   </div>
