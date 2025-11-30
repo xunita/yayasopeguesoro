@@ -172,7 +172,7 @@ watch(locale, (newLocale) => {
       :key="'project-' + work.id"
       v-motion-slide-visible-once-bottom
       :work="work"
-      class="self-center min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10 py-10"
+      class="self-center min-md:w-5/6 max-w-[1080px] w-full md:mx-0 mx-10 py-10"
       :class="{
         'border-t border-white': work.id !== 'salyeo',
       }"
