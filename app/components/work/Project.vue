@@ -67,13 +67,13 @@ const loadFallbackImg = (event) => {
       fit="cover"
       class="rounded-lg border-2 border-white-700 cursor-pointer"
       loading="lazy"
-      width="624"
-      height="351"
+      width="1248"
+      height="702"
       @error="loadFallbackImg"
       @click="openLink"
     />
     </div>
-    <div v-else class="md:w-auto w-full">
+    <div v-else class="w-full h-auto">
     <iframe
       :src="
         work.iframe_link ??
