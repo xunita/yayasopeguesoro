@@ -20,7 +20,7 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="flex flex-col gap-5 self-center w-full pt-10"
+    class="flex flex-col gap-5 self-center w-full"
     :class="{
       '': allSpace,
       'pt-10': type !=='contact',
