@@ -48,7 +48,9 @@ const loadFallbackImg = (event) => {
       >
     </div>
 
-    <div class="relative w-fit h-fit">
+    <div 
+      v-if="!work.iframe"
+      class="relative w-fit h-fit">
       <UBadge 
         v-if="work.status" 
         size="md" 
@@ -59,7 +61,6 @@ const loadFallbackImg = (event) => {
         {{ $t(work.status) }}
       </UBadge>
       <NuxtImg
-      v-if="!work.iframe"
       target="_blank"
       :src="work.img ?? '/images/notfound.png'"
       :alt="$t(`${work.id}.title`)"
@@ -71,8 +72,9 @@ const loadFallbackImg = (event) => {
       @error="loadFallbackImg"
       @click="openLink"
     />
+    </div>
+    <div v-else class="md:w-auto w-full">
     <iframe
-      v-else
       :src="
         work.iframe_link ??
         'https://www.youtube-nocookie.com/embed/0gmXsyyDDnU?si=pDSzchUBDKb2NQu7'
