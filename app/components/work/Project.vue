@@ -14,11 +14,14 @@ const loadFallbackImg = (event) => {
 };
 </script>
 <template>
-  <div class="flex lg:flex-row flex-col lg:items-center gap-10">
+  <div 
+    class="flex lg:flex-row flex-col lg:items-center gap-10"
+    :class="{
+        'border-t border-white': work.id !== 'salyeo'
+    }"
+    >
     <div 
-      class="flex flex-col gap-4 pt-10 w-full" 
-      :class="{
-        'border-t border-white': work.id !== 'salyeo'}"
+      class="flex flex-col gap-4 pt-10 w-full"
       >
       <span class="font-bold text-2xl">
         {{ work.title.toUpperCase() ?? "??" }}
