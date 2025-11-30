@@ -24,6 +24,7 @@ const props = defineProps({
     :class="{
       '': allSpace,
       'pt-10': type !=='contact',
+      'dark:pt-10 light:pt-5': type ==='contact',
       'min-md:w-5/6 max-w-[1080px] w-full md:px-0 px-10': !allSpace,
     }"
   >
