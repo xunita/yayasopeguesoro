@@ -14,7 +14,7 @@ const loadFallbackImg = (event) => {
 };
 </script>
 <template>
-  <div class="flex lg:flex-row flex-col items-center gap-10">
+  <div class="flex lg:flex-row flex-col lg:items-center gap-10">
     <div class="flex flex-col gap-4">
       <span class="font-bold text-2xl">
         {{ work.title.toUpperCase() ?? "??" }}
