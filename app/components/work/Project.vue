@@ -15,7 +15,11 @@ const loadFallbackImg = (event) => {
 </script>
 <template>
   <div class="flex lg:flex-row flex-col lg:items-center gap-10">
-    <div class="flex flex-col gap-4">
+    <div 
+      class="flex flex-col gap-4 pt-10 w-full" 
+      :class="{
+        'border-t border-white': work.id !== 'salyeo'}"
+      >
       <span class="font-bold text-2xl">
         {{ work.title.toUpperCase() ?? "??" }}
       </span>
@@ -44,7 +48,7 @@ const loadFallbackImg = (event) => {
       >
     </div>
 
-    <div class="relative">
+    <div class="relative w-fit h-fit">
       <UBadge 
         v-if="work.status" 
         size="md" 
