@@ -62,7 +62,11 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
 </script>
 
 <template>
-  <HomeBodySection :title="$t('contact')" :allSpace="true">
+  <HomeBodySection 
+    :title="$t('contact')" 
+    :allSpace="true" 
+    type="contact"
+    >
     <div
       class="self-center min-md:w-2/6 max-w-[1080px] w-full md:px-0 px-10 py-5"
     >
