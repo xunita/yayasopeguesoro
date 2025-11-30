@@ -172,7 +172,7 @@ watch(locale, (newLocale) => {
       :key="'project-' + work.id"
       v-motion-slide-visible-once-bottom
       :work="work"
-      class="self-center w-full max-w-[1080px] md:px-20 px-10 pb-5"
+      class="self-center w-full max-w-[1080px] lg:px-10 md:px-20 px-10 pb-5"
     />
   </div>
 </template>
