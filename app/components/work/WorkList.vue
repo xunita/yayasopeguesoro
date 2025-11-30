@@ -174,7 +174,6 @@ watch(locale, (newLocale) => {
       :work="work"
       class="self-center w-full max-w-[1080px] md:px-20 px-10 pt-10"
       :class="{
-        'border-t border-white': work.id !== 'salyeo',
         'pb-10': work.id !== 'pincasse'
       }"
     />
