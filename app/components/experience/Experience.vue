@@ -10,8 +10,8 @@ let items = [
     icon: "lucide:briefcase-business",
     name: "3DNotification Center",
     date: t("3dnotification.date"),
-    title: t("3dnotification.title"),
-    description: t("3dnotification.description"),
+    _title: t("3dnotification.title"),
+    _description: t("3dnotification.description"),
     stacks: stacks["3dnotificationStacks"],
   },
   {
@@ -19,8 +19,8 @@ let items = [
     icon: "lucide:briefcase-business",
     name: "Djidji",
     date: t("djidji.date"),
-    title: t("djidji.title"),
-    description: t("djidji.description"),
+    _title: t("djidji.title"),
+    _description: t("djidji.description"),
     stacks: stacks.djidjiStacks,
   },
 ] satisfies StepperItem[];
