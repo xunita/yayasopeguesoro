@@ -7,9 +7,9 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="flex flex-col space-y-2 text-sm">
+  <div class="flex flex-col space-y-2">
     <div class="flex flex-col gap-1">
-      <span class="text-muted">
+      <span class="text-muted text-sm">
         {{ projet.date ?? "??" }}
       </span>
       <span class="font-semibold">
