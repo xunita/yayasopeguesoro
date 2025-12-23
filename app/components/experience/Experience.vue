@@ -7,6 +7,7 @@ const { locale, t } = useI18n();
 let items = [
   {
     id: "3dnotification",
+    icon: "lucide:briefcase-business",
     label: "3DNotification Center",
     date: t("3dnotification.date"),
     title: t("3dnotification.title"),
@@ -15,6 +16,7 @@ let items = [
   },
   {
     id: "djidji",
+    icon: "lucide:briefcase-business",
     label: "Djidji",
     date: t("djidji.date"),
     title: t("djidji.title"),
@@ -34,7 +36,7 @@ watch(locale, (newLocale) => {
 <template>
   <HomeBodySection :title="$t('experience')">
     <UTabs
-      :orientation="width < 1024 ? 'horizontal' : 'vertical'"
+      orientation="vertical"
       size="xl"
       color="neutral"
       :items="items"
@@ -49,13 +51,6 @@ watch(locale, (newLocale) => {
       <template #content="{ item }">
         <ExperienceProject
           v-motion-slide-bottom
-          class="lg:block hidden"
-          :duration="250"
-          :projet="item"
-        />
-        <ExperienceProject
-          v-motion-slide-left
-          class="lg:hidden block"
           :duration="250"
           :projet="item"
         />
