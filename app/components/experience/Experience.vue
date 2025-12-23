@@ -46,7 +46,8 @@ watch(locale, (newLocale) => {
         trigger: 'cursor-default',
         item: 'cursor-default',
         icon: 'dark:text-white',
-        title: 'font-semibold text-xl'
+        title: 'font-semibold text-xl',
+        description: 'pt-4',
       }"
       class="gap-10 items-start w-full p-1"
     >
