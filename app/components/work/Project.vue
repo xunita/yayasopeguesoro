@@ -32,9 +32,9 @@ const loadFallbackImg = (event) => {
         <div
           v-for="stack in work.stacks"
           :key="'stack-' + stack.id"
-          class="flex gap-1 items-center font-normal"
+          class="flex gap-1 font-normal"
         >
-          <UIcon name="heroicons-solid:plus-sm" class="size-6" />
+          <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0 w-fit" />
           <span> {{ stack }}</span>
         </div>
       </div>
