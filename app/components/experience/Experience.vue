@@ -35,18 +35,13 @@ watch(locale, (newLocale) => {
 </script>
 <template>
   <HomeBodySection :title="$t('experience')">
-    <UTabs
+    <UStepper
       orientation="vertical"
+      :default-value="-1"
       size="xl"
       color="neutral"
       :items="items"
-      variant="link"
-      :ui="{
-        trigger: 'cursor-pointer px-5 py-3',
-        //   list: 'border-l-2',
-        //   indicator: 'border-l-2',
-      }"
-      class="gap-10 items-start w-full"
+      class="gap-10 items-start w-full p-1"
     >
       <template #content="{ item }">
         <ExperienceProject
@@ -55,6 +50,6 @@ watch(locale, (newLocale) => {
           :projet="item"
         />
       </template>
-    </UTabs>
+    </UStepper>
   </HomeBodySection>
 </template>
