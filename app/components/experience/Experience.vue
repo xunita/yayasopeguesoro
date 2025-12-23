@@ -37,7 +37,6 @@ watch(locale, (newLocale) => {
   <HomeBodySection :title="$t('experience')">
     <UStepper
       orientation="vertical"
-      :default-value="-1"
       size="xl"
       color="neutral"
       :items="items"
