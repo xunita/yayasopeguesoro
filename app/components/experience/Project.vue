@@ -10,7 +10,7 @@ const props = defineProps({
   <div class="flex flex-col space-y-2">
     <div class="flex flex-col gap-1">
       <span class="font-semibold text-lg">
-        {{ projet.label ?? "??" }}
+        {{ projet.name ?? "??" }}
       </span>
       <span class="text-muted text-sm">
         {{ projet.date ?? "??" }}
