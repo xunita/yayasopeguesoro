@@ -4,6 +4,7 @@ import { useWindowSize } from "@vueuse/core";
 import stacks from "@/assets/json/projects-stacks.json";
 const { width } = useWindowSize();
 const { locale, t } = useI18n();
+const activeStep = ref(null)
 let items = [
   {
     id: "3dnotification",
@@ -36,6 +37,7 @@ watch(locale, (newLocale) => {
 <template>
   <HomeBodySection :title="$t('experience')">
     <UStepper
+      v-model="activeStep" 
       orientation="vertical"
       size="xl"
       color="neutral"
