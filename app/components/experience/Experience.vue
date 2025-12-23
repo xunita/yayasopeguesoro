@@ -44,7 +44,9 @@ watch(locale, (newLocale) => {
       disabled
       :ui="{ 
         trigger: 'cursor-default',
-        item: 'cursor-default'
+        item: 'cursor-default',
+        icon: 'dark:text-white',
+        title: 'font-semibold text-lg'
       }"
       class="gap-10 items-start w-full p-1"
     >
