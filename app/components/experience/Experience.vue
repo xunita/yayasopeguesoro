@@ -8,19 +8,19 @@ let items = [
   {
     id: "3dnotification",
     icon: "lucide:briefcase-business",
-    name: "3DNotification Center",
+    title: "3DNotification Center",
     date: t("3dnotification.date"),
-    _title: t("3dnotification.title"),
-    _description: t("3dnotification.description"),
+    job: t("3dnotification.title"),
+    description: t("3dnotification.description"),
     stacks: stacks["3dnotificationStacks"],
   },
   {
     id: "djidji",
     icon: "lucide:briefcase-business",
-    name: "Djidji",
+    title: "Djidji",
     date: t("djidji.date"),
-    _title: t("djidji.title"),
-    _description: t("djidji.description"),
+    job: t("djidji.title"),
+    description: t("djidji.description"),
     stacks: stacks.djidjiStacks,
   },
 ] satisfies StepperItem[];
@@ -42,7 +42,7 @@ watch(locale, (newLocale) => {
       :items="items"
       class="gap-10 items-start w-full p-1"
     >
-      <template #content="{ item }">
+      <template #description="{ item }">
         <ExperienceProject
           v-motion-slide-bottom
           :duration="250"
