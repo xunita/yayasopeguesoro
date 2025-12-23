@@ -23,8 +23,8 @@ const props = defineProps({
         :key="'stack-' + stack.id"
         class="flex gap-1"
       >
-        <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0 w-fit" />
-        <span> {{ stack }}</span>
+        <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0" />
+        <span class="flex-1"> {{ stack }}</span>
       </div>
     </div>
   </div>
