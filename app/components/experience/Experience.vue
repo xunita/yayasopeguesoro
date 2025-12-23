@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TabsItem } from "@nuxt/ui";
+import type { StepperItem } from '@nuxt/ui';
 import { useWindowSize } from "@vueuse/core";
 import stacks from "@/assets/json/projects-stacks.json";
 const { width } = useWindowSize();
@@ -23,7 +23,7 @@ let items = [
     description: t("djidji.description"),
     stacks: stacks.djidjiStacks,
   },
-] satisfies TabsItem[];
+] satisfies StepperItem[];
 watch(locale, (newLocale) => {
   items = items.map((item) => {
     item.date = t(`${item.id}.date`);
