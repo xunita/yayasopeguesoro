@@ -16,9 +16,9 @@ const props = defineProps({
         {{ projet.date ?? "??" }}
       </span>
       <span class="font-semibold">
-        {{ projet.title ?? "??" }}
+        {{ projet._title ?? "??" }}
       </span>
-      <div>{{ projet.description ?? "??" }}</div>
+      <div>{{ projet._description ?? "??" }}</div>
     </div>
     <div class="flex flex-col gap-2 font-semibold">
       <div
