@@ -8,7 +8,7 @@ let items = [
   {
     id: "3dnotification",
     icon: "lucide:briefcase-business",
-    label: "3DNotification Center",
+    name: "3DNotification Center",
     date: t("3dnotification.date"),
     title: t("3dnotification.title"),
     description: t("3dnotification.description"),
@@ -17,7 +17,7 @@ let items = [
   {
     id: "djidji",
     icon: "lucide:briefcase-business",
-    label: "Djidji",
+    name: "Djidji",
     date: t("djidji.date"),
     title: t("djidji.title"),
     description: t("djidji.description"),
