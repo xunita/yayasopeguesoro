@@ -49,6 +49,9 @@ export default defineNuxtConfig({
     },
   },
   ssr: false,
+  nitro: {
+    preset: 'cloudflare'
+  },
   css: ["~/assets/css/yayasopegue.css", "~/assets/css/tailwind.css"],
   modules: [
     "@nuxt/eslint",
