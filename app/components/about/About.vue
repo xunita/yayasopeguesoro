@@ -31,6 +31,7 @@
       <p>{{ $t("aboutThirdP") }}</p>
       <p>{{ $t("aboutFourthP") }}</p>
       <p>{{ $t("aboutFithP") }}</p>
+      <p>{{ $t("aboutSixthP") }}</p>
     </div>
   </HomeBodySection>
 </template>
