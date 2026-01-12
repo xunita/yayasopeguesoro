@@ -3,8 +3,8 @@ const { locale } = useI18n();
 const openCV = () => {
   window.open(
     locale.value === "en"
-      ? "https://drive.google.com/file/d/15ef4rb-prbeNF5FRt9PF9mrrSO3NhG_t/view?usp=drive_link"
-      : "https://drive.google.com/file/d/1gxkaAqbmewylEDmoQe9sTSB-FPNGDyDT/view?usp=drive_link",
+      ? "https://drive.google.com/file/d/16pi88e9zNLjT43V8M80kQoNaYf5JPlwY/view?usp=drivesdk"
+      : "https://drive.google.com/file/d/1jAfjT1BDYnT5qefUwgU09y3bXzM40NFC/view?usp=drivesdk",
     "_blank"
   );
 };
