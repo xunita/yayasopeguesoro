@@ -30,7 +30,7 @@ onMounted(() => {
       if (el) {
         el.scrollIntoView({ behavior: "smooth" });
       }
-    }, 500);
+    }, 250);
   }
 });
 </script>
