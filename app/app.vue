@@ -13,6 +13,26 @@ useHead({
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
+const route = useRoute();
+
+onMounted(() => {
+  if (!route.hash) return;
+
+  const isFirstNavigation = window.history.length === 1;
+
+  const referrer = document.referrer;
+  const isExternalReferrer =
+    !referrer || new URL(referrer).origin !== window.location.origin;
+
+  if (isFirstNavigation || isExternalReferrer) {
+    setTimeout(() => {
+      const el = document.querySelector(route.hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 500);
+  }
+});
 </script>
 <template>
   <UApp>
