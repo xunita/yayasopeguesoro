@@ -18,10 +18,8 @@ Feel free to [**contact me**](https://yayasopeguesoro.space/#contact) for anythi
 
 You can also follow me on these social networks if you'd like to 😊.
 
-**[X][]** •
 **[Github][]** •
 **[LinkedIn][]**
 
-[X]: https://www.x.com/yayasopegue
 [GitHub]: https://github.com/xunita
 [LinkedIn]: https://linkedin.com/in/sopoude
