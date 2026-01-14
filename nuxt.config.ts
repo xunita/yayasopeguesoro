@@ -24,9 +24,9 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "https://yayasopegue.netlify.app/images/yayasopeguesoro.png",
+          content: "https://yayasopeguesoro.space/images/yayasopeguesoro.png",
         },
-        { property: "og:url", content: "https://yayasopegue.netlify.app" },
+        { property: "og:url", content: "https://yayasopeguesoro.space" },
         { property: "og:type", content: "website" },
 
         {
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content: "https://yayasopegue.netlify.app/images/yayasopeguesoro.png",
+          content: "https://yayasopeguesoro.space/images/yayasopeguesoro.png",
         },
       ],
     },
