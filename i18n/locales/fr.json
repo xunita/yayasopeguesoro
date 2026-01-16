@@ -38,9 +38,24 @@
     "title": "Développeur Full Stack",
     "description": "La 3DNotification Center est une application de gestion des notifications pour les applications 3DEXPERIENCE (plateforme d'affaires de Dassault Systèmes). Dans le cadre de l'obtention de mon diplôme de master, j'ai travaillé, en collaboration avec l'équipe 3DNotification et 3DMessaging sur la refonte du front-end et de l'optimisation du back-end du Notification Center. Les technologies principales utilisées dans la refonte du 3DNotification Center sont:"
   },
+  "py_ueve": {
+    "date": "Novembre 2023 - Février 2024",
+    "title": "Développeur Python",
+    "description": "Analyse, visualisation des données, développement et évaluation de modèles de Machine Learning visant à prédire le transport de passagers dans une autre dimension suite à la collision d'un vaisseau spatial (Compétition Kaggle). Les technologies utilisées pour ce projet sont:"
+  },
+  "java_ueve": {
+    "date": "Février 2022 - Mai 2023",
+    "title": "Développeur Java",
+    "description": "Implémentation en Java de l'algorithme de Kanellakis & Smolka de minimisation de systèmes de transitions par bisimulation, incluant la génération de modèles et l'optimisation des états. Les technologies utilisées pour ce projet sont:"
+  },
+  "db_fsm": {
+    "date": "Mars 2021 - Août 2021",
+    "title": "Développeur Base de données",
+    "description": "Conception, administration et optimisation de bases de données relationnelles MySQL et MariaDB. Développement et sécurisation d'API de requêtage permettant l'accès, la gestion et l'exploitation des données, amélioration des performances des requêtes et structuration des schémas de données. Les technologies utilisées pour ce poste sont:"
+  },
   "salyeo": {
-    "link":"https://salyeo.netlify.app",
-    "img":"/images/salyeo.jpg",
+    "link": "https://salyeo.netlify.app",
+    "img": "/images/salyeo.jpg",
     "title": "Salyeo",
     "description": "Salyeo est une boutique en ligne de vente de pagnes wax en Côte d’Ivoire, que je développe actuellement pour un membre de la famille."
   },

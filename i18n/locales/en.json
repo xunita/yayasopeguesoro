@@ -34,8 +34,8 @@
     "description": "Djidji is a peer-to-peer goods exchange website that I developed as part of an end-of-study internship for my bachelor's degree. The main technologies used in this project are:"
   },
   "salyeo": {
-    "link":"https://salyeo.netlify.app",
-    "img":"/images/salyeo.jpg",
+    "link": "https://salyeo.netlify.app",
+    "img": "/images/salyeo.jpg",
     "title": "Salyeo",
     "description": "Salyeo is a shop website for selling wax fabric in Côte d’Ivoire, which is being developed for a family member."
   },
@@ -43,6 +43,21 @@
     "date": "March 2024 - September 2024",
     "title": "Full Stack Developer",
     "description": "The 3DNotification Center is a notification management application for 3DEXPERIENCE (Dassault Systèmes' business platform) applications. As part of my master's graduation, I worked in collaboration with the 3DNotification and 3DMessaging teams on the front-end revamp and back-end optimization of the Notification Center. The main technologies used in the revamp of the 3DNotification Center are:"
+  },
+  "py_ueve": {
+    "date": "November 2023 - February 2024",
+    "title": "Python Developer",
+    "description": "Data analysis, visualization, development and evaluation of machine learning models to predict passenger transportation to another dimension following a spacecraft collision (Kaggle competition). The main technologies used for this projet are:"
+  },
+  "java_ueve": {
+    "date": "February 2022 - May 2023",
+    "title": "Java Developer",
+    "description": "Java implementation of the Kanellakis & Smolka algorithm for minimizing transition systems via bisimulation, including model generation and state optimization. The stacks used for this project are:"
+  },
+  "db_fsm": {
+    "date": "March 2021 - August 2021",
+    "title": "Database developer",
+    "description": "Design, administration, and optimization of MySQL and MariaDB relational databases. Development and securing of query APIs for data access, management, and utilization, including query performance improvements and data schema structuring. The stacks used for this role are:"
   },
   "yayasopeguesoro": {
     "title": "Portfolio Website",

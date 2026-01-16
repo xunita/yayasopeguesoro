@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { StepperItem } from '@nuxt/ui';
+import type { StepperItem } from "@nuxt/ui";
 import { useWindowSize } from "@vueuse/core";
 import stacks from "@/assets/json/projects-stacks.json";
 const { width } = useWindowSize();
@@ -13,6 +13,33 @@ let items = [
     job: t("3dnotification.title"),
     description: t("3dnotification.description"),
     stacks: stacks["3dnotificationStacks"],
+  },
+  {
+    id: "py_ueve",
+    icon: "lucide:briefcase-business",
+    title: "Spaceship Titanic",
+    date: t("py_ueve.date"),
+    job: t("py_ueve.title"),
+    description: t("py_ueve.description"),
+    stacks: stacks["py_ueveStacks"],
+  },
+  {
+    id: "java_ueve",
+    icon: "lucide:briefcase-business",
+    title: "Kanellakis & Smolka",
+    date: t("java_ueve.date"),
+    job: t("java_ueve.title"),
+    description: t("java_ueve.description"),
+    stacks: stacks["java_ueveStacks"],
+  },
+  {
+    id: "db_fsm",
+    icon: "lucide:briefcase-business",
+    title: "FSM",
+    date: t("db_fsm.date"),
+    job: t("db_fsm.title"),
+    description: t("db_fsm.description"),
+    stacks: stacks["db_fsmStacks"],
   },
   {
     id: "djidji",
@@ -39,10 +66,10 @@ watch(locale, (newLocale) => {
       orientation="vertical"
       size="xl"
       color="neutral"
-      :default-value="-1" 
+      :default-value="-1"
       :items="items"
       disabled
-      :ui="{ 
+      :ui="{
         trigger: 'cursor-default',
         item: 'cursor-default',
         icon: 'dark:text-white',
@@ -54,7 +81,7 @@ watch(locale, (newLocale) => {
       <template #description="{ item }">
         <ExperienceProject
           v-motion-slide-bottom
-          v-if="item" 
+          v-if="item"
           :duration="250"
           :projet="item"
         />

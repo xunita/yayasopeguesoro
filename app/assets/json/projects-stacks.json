@@ -10,6 +10,28 @@
     "Git",
     "GitHub"
   ],
+  "py_ueveStacks": [
+    "Python",
+    "Flask",
+    "Streamlit",
+    "Pandas",
+    "Microsoft Azure",
+    "Git",
+    "GitHub"
+  ],
+  "java_ueve": [
+    "Java",
+    "Git",
+    "Github"
+  ],
+  "db_fsmStacks": [
+    "MySQL/MariaDB",
+    "JavaScript",
+    "Laravel",
+    "Postman",
+    "Git",
+    "GitHub"
+  ],
   "3dnotificationStacks": [
     "HTML5/CSS3/JavaScript",
     "Vue 3 (Hooks & Pinia)",
@@ -72,12 +94,12 @@
     "Netlify"
   ],
   "logganStacks": [
-    "HTML5/CSS3/JavaScript", 
+    "HTML5/CSS3/JavaScript",
     "Nuxt 3 (Nuxt UI, etc.)",
     "Vite",
     "Nitro",
-    "Git", 
-    "GitHub", 
+    "Git",
+    "GitHub",
     "Netlify"
   ],
   "nstStacks": [
@@ -120,12 +142,12 @@
     "Netlify"
   ],
   "hyphipStacks": [
-    "HTML5/CSS3/JavaScript", 
+    "HTML5/CSS3/JavaScript",
     "Nuxt 2",
     "Webpack",
-    "Firebase/Firestore", 
-    "Git", 
-    "GitHub", 
+    "Firebase/Firestore",
+    "Git",
+    "GitHub",
     "Netlify"
   ],
   "guessStacks": [
