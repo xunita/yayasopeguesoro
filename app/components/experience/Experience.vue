@@ -74,7 +74,7 @@ watch(locale, (newLocale) => {
         item: 'cursor-default',
         icon: 'dark:text-white',
         title: 'font-semibold text-xl',
-        description: 'pt-4',
+        description: 'pt-3',
       }"
       class="gap-10 items-start w-full p-1"
     >
