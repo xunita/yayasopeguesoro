@@ -63,20 +63,16 @@ const loadFallbackImg = (event) => {
       >
         {{ $t(work.status) }}
       </UBadge>
-      <div
-        class="w-full h-full max-w-[640px] max-h-[360px]"
-      >
         <NuxtImg
           target="_blank"
           :src="work.img ?? '/images/notfound.png'"
           :alt="$t(`${work.id}.title`)"
           fit="cover"
-          class="rounded-lg border-2 border-white-700 cursor-pointer w-full h-full object-cover"
+          class="rounded-lg border-2 border-white-700 cursor-pointer w-full h-full max-w-[640px] max-h-[360px] object-cover"
           loading="lazy"
           @error="loadFallbackImg"
           @click="openLink"
         />
-      </div>
     </div>
     <div v-else class="w-full h-auto">
       <iframe
