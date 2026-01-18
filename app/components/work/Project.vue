@@ -49,7 +49,7 @@ const loadFallbackImg = (event) => {
       >
     </div>
 
-    <div v-if="!work.iframe" class="relative lg:w-1/2 w-fit h-fit">
+    <div v-if="!work.iframe" class="relative w-full h-auto pt-10">
       <UBadge
         v-if="work.status"
         size="md"
