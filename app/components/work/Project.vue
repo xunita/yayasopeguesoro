@@ -64,7 +64,7 @@ const loadFallbackImg = (event) => {
         {{ $t(work.status) }}
       </UBadge>
       <div
-        class="w-full h-full max-w-[640px] max-h-[360]"
+        class="w-full h-full max-w-[640px] max-h-[360px] aspect-video"
       >
         <NuxtImg
           target="_blank"
