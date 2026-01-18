@@ -22,7 +22,7 @@
         v-motion-slide-visible-once-bottom
         class="w-full flex justify-center scroll-mt-15 border-t border-gray-200"
       >
-        <Awards />
+        <AwardAwards />
       </div>
       <div
         id="projects"
