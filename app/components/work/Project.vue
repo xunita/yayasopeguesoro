@@ -68,7 +68,7 @@ const loadFallbackImg = (event) => {
       :src="work.img ?? '/images/notfound.png'"
       :alt="$t(`${work.id}.title`)"
       fit="cover"
-      class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[512px] max-h-[288px] w-full h-auto"
+      class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[640px] max-h-[360px] w-full h-auto"
       loading="lazy"
       width="1248"
       height="702"
@@ -82,7 +82,7 @@ const loadFallbackImg = (event) => {
         work.iframe_link ??
         'https://www.youtube-nocookie.com/embed/0gmXsyyDDnU?si=pDSzchUBDKb2NQu7'
       "
-      class="rounded-lg border-2 border-white-700 cursor-pointer w-full h-auto"
+      class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[640px] max-h-[360px] w-full h-auto"
       :title="work.title ?? 'Youtube video'"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
