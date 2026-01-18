@@ -14,15 +14,13 @@ const loadFallbackImg = (event) => {
 };
 </script>
 <template>
-  <div 
+  <div
     class="flex lg:flex-row flex-col lg:items-center gap-10"
     :class="{
-        'border-t border-white': work.id !== 'salyeo'
+      'border-t border-white': work.id !== 'salyeo',
     }"
-    >
-    <div 
-      class="flex flex-col gap-4 pt-10 w-full"
-      >
+  >
+    <div class="flex flex-col gap-4 pt-10 w-full">
       <span class="font-bold text-2xl">
         {{ work.title.toUpperCase() ?? "??" }}
       </span>
@@ -51,45 +49,57 @@ const loadFallbackImg = (event) => {
       >
     </div>
 
-    <div 
-      v-if="!work.iframe"
-      class="relative w-fit h-fit">
-      <UBadge 
-        v-if="work.status" 
-        size="md" 
-        :color="work.badge" 
-        variant="solid" 
+    <div v-if="!work.iframe" class="relative w-fit h-fit">
+      <UBadge
+        v-if="work.status"
+        size="md"
+        :color="work.badge"
+        variant="solid"
         class="text-white absolute top-2 right-2"
-        :class="{'bg-default border border-default text-default': work.status === 'paused' }">
+        :class="{
+          'bg-default border border-default text-default':
+            work.status === 'paused',
+        }"
+      >
         {{ $t(work.status) }}
       </UBadge>
-      <NuxtImg
-      target="_blank"
-      :src="work.img ?? '/images/notfound.png'"
-      :alt="$t(`${work.id}.title`)"
-      fit="cover"
-      class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[640px] max-h-[360px] !w-full h-auto aspect-video object-cover"
-      loading="lazy"
-      width="1248"
-      height="702"
-      @error="loadFallbackImg"
-      @click="openLink"
-    />
+      <div
+        class="relative w-full h-auto max-w-[640px] max-h-[360] aspect-video overflow-hidden"
+      >
+        <NuxtImg
+          target="_blank"
+          :src="work.img ?? '/images/notfound.png'"
+          :alt="$t(`${work.id}.title`)"
+          fit="cover"
+          class="rounded-lg border-2 border-white-700 cursor-pointer absolute inset-0 w-full h-full object-cover"
+          loading="lazy"
+          @error="loadFallbackImg"
+          @click="openLink"
+        />
+      </div>
     </div>
     <div v-else class="w-full h-auto">
-    <iframe
-      :src="
-        work.iframe_link ??
-        'https://www.youtube-nocookie.com/embed/0gmXsyyDDnU?si=pDSzchUBDKb2NQu7'
-      "
-      class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[640px] max-h-[360px] w-full h-auto"
-      :title="work.title ?? 'Youtube video'"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-      style="aspect-ratio: 16/9; width: 100%"
-    ></iframe>
+      <iframe
+        :src="
+          work.iframe_link ??
+          'https://www.youtube-nocookie.com/embed/0gmXsyyDDnU?si=pDSzchUBDKb2NQu7'
+        "
+        class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[640px] max-h-[360px] w-full h-auto"
+        :title="work.title ?? 'Youtube video'"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        style="aspect-ratio: 16/9; width: 100%"
+      ></iframe>
     </div>
   </div>
 </template>
