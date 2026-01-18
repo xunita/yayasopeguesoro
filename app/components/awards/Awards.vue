@@ -50,7 +50,7 @@ watch(locale, (newLocale) => {
       class="gap-10 items-start w-full p-1"
     >
       <template #description="{ item }">
-        <AwardAward
+        <AwardsAward
           v-motion-slide-bottom
           v-if="item"
           :duration="250"

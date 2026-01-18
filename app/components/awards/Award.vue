@@ -17,7 +17,7 @@ const props = defineProps({
     <NuxtImg
       target="_blank"
       :src="award.img ?? '/images/notfound.png'"
-      :alt="$t(`${award.id}.title`)"
+      :alt="award.title"
       fit="cover"
       class="border-2 border-gray-300 max-w-[300px] max-h-[300px] w-full h-auto"
       loading="lazy"
