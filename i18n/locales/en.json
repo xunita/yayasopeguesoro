@@ -55,7 +55,7 @@
     "description": "Academic project with the task of implementation in Java of the Kanellakis & Smolka algorithm for minimizing transition systems via bisimulation, including model generation and state optimization. The stacks used for this project are:"
   },
   "db_fsm": {
-    "date": "March 2021 - August 2021",
+    "date": "March 2019 - June 2019",
     "title": "Database developer",
     "description": "School Intern with tasks: Design, administration, and optimization of MySQL and MariaDB relational databases. Development and securing of query APIs for data access, management, and utilization, including query performance improvements and data schema structuring. The stacks used for this role are:"
   },

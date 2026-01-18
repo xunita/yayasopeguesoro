@@ -33,15 +33,6 @@ let items = [
     stacks: stacks["java_ueveStacks"],
   },
   {
-    id: "db_fsm",
-    icon: "lucide:briefcase-business",
-    title: "FSM",
-    date: t("db_fsm.date"),
-    job: t("db_fsm.title"),
-    description: t("db_fsm.description"),
-    stacks: stacks["db_fsmStacks"],
-  },
-  {
     id: "djidji",
     icon: "lucide:briefcase-business",
     title: "Djidji",
@@ -50,6 +41,15 @@ let items = [
     description: t("djidji.description"),
     stacks: stacks.djidjiStacks,
   },
+  {
+    id: "db_fsm",
+    icon: "lucide:briefcase-business",
+    title: "FSM",
+    date: t("db_fsm.date"),
+    job: t("db_fsm.title"),
+    description: t("db_fsm.description"),
+    stacks: stacks["db_fsmStacks"],
+  }
 ] satisfies StepperItem[];
 watch(locale, (newLocale) => {
   items = items.map((item) => {
