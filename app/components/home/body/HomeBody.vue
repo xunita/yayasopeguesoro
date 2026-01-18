@@ -18,6 +18,13 @@
         <Experience />
       </div>
       <div
+        id="awards"
+        v-motion-slide-visible-once-bottom
+        class="w-full flex justify-center scroll-mt-15 border-t border-gray-200"
+      >
+        <Awards />
+      </div>
+      <div
         id="projects"
         v-motion-slide-visible-once-bottom
         class="w-full flex justify-center scroll-mt-15 border-t border-gray-200"
