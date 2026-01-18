@@ -15,7 +15,7 @@ const loadFallbackImg = (event) => {
 </script>
 <template>
   <div
-    class="flex lg:flex-row flex-col lg:items-center gap-10"
+    class="flex lg:flex-row flex-col gap-10"
     :class="{
       'border-t border-white': work.id !== 'salyeo',
     }"
@@ -49,7 +49,7 @@ const loadFallbackImg = (event) => {
       >
     </div>
 
-    <div v-if="!work.iframe" class="relative w-fit h-fit">
+    <div v-if="!work.iframe" class="relative lg:w-1/2 w-fit h-fit">
       <UBadge
         v-if="work.status"
         size="md"
