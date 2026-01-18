@@ -68,7 +68,7 @@ const onSubmit = async (event: FormSubmitEvent<typeof state>) => {
     type="contact"
     >
     <div
-      class="self-center min-md:w-2/6 max-w-[1080px] w-full md:px-0 px-10 py-5"
+      class="self-center lg:w-2/6 md:w-2/5 max-w-[1080px] w-full md:px-0 px-10 py-5"
     >
       <UForm
         :validate="validate"
