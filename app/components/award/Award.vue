@@ -12,7 +12,7 @@ const props = defineProps({
       <span class="text-muted text-sm">
         {{ award.date ?? "??" }}
       </span>
-      <div>{{ projet.description ?? "??" }}</div>
+      <div>{{ award.description ?? "??" }}</div>
     </div>
     <NuxtImg
       target="_blank"
