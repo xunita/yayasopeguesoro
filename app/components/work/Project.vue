@@ -49,7 +49,7 @@ const loadFallbackImg = (event) => {
       >
     </div>
 
-    <div v-if="!work.iframe" class="relative w-fit h-fit pt-10">
+    <div v-if="!work.iframe" class="relative w-fit h-fit mt-10">
       <UBadge
         v-if="work.status"
         size="md"
@@ -63,7 +63,7 @@ const loadFallbackImg = (event) => {
       >
         {{ $t(work.status) }}
       </UBadge>
-        <NuxtImg
+      <NuxtImg
           target="_blank"
           :src="work.img ?? '/images/notfound.png'"
           :alt="$t(`${work.id}.title`)"
@@ -72,7 +72,7 @@ const loadFallbackImg = (event) => {
           loading="lazy"
           @error="loadFallbackImg"
           @click="openLink"
-        />
+      />
     </div>
     <div v-else class="w-full h-auto">
       <iframe
