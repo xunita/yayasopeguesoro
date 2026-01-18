@@ -68,7 +68,7 @@ const loadFallbackImg = (event) => {
       :src="work.img ?? '/images/notfound.png'"
       :alt="$t(`${work.id}.title`)"
       fit="cover"
-      class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[640px] max-h-[360px] w-full h-auto aspect-video object-cover"
+      class="rounded-lg border-2 border-white-700 cursor-pointer max-w-[640px] max-h-[360px] !w-full h-auto aspect-video object-cover"
       loading="lazy"
       width="1248"
       height="702"
