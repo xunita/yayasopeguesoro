@@ -29,11 +29,25 @@ const loadFallbackImg = (event) => {
         <span class="font-bold">{{ $t("devTools").toUpperCase() }}</span>
         <div
           v-for="stack in work.stacks"
-          :key="'stack-' + stack.id"
-          class="flex gap-1 font-normal"
+          :key="'stack-' + stack"
+          class="font-normal"
         >
-          <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0" />
-          <span class="flex-1"> {{ stack }}</span>
+          <div v-if="work.id !== 'yayasopeguesoro'" class="flex gap-1">
+            <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0" />
+            <span class="flex-1"> {{ stack }}</span>
+          </div>
+          <div v-else class="flex gap-1">
+            <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0" />
+            <div class="flex items-center gap-1">
+              <span class="line-through text-gray-400">
+                {{ stack }}
+              </span>
+              <span class="text-gray-400">→</span>
+              <span class="font-medium">
+                {{ work.nrc }}
+              </span>
+            </div>
+          </div>
         </div>
       </div>
       <UButton

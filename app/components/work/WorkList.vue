@@ -22,6 +22,7 @@ let works = [
     status: "done",
     badge: "primary",
     stacks: stacks["yayasopeguesoroStacks"],
+    nrc: stacks["yso_netlify_replace"]
   },
   {
     id: "sbandroid",

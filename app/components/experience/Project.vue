@@ -20,7 +20,7 @@ const props = defineProps({
     <div class="flex flex-col gap-2 font-semibold">
       <div
         v-for="stack in projet.stacks"
-        :key="'stack-' + stack.id"
+        :key="'stack-exp' + stack"
         class="flex gap-1"
       >
         <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0" />
