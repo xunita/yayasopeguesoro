@@ -38,7 +38,7 @@ const loadFallbackImg = (event) => {
           </div>
           <div v-else class="flex gap-1">
             <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0" />
-            <div class="flex items-center gap-1">
+            <div class="flex gap-1">
               <span class="line-through text-gray-400">
                 {{ stack }}
               </span>
