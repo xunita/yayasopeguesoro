@@ -32,7 +32,7 @@ const loadFallbackImg = (event) => {
           :key="'stack-' + stack"
           class="font-normal"
         >
-          <div v-if="work.id !== 'yayasopeguesoro'" class="flex gap-1">
+          <div v-if="work.id !== 'yayasopeguesoro' || stack !== 'Netlify'" class="flex gap-1">
             <UIcon name="heroicons-solid:plus-sm" class="size-6 shrink-0" />
             <span class="flex-1"> {{ stack }}</span>
           </div>
