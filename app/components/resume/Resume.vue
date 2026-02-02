@@ -17,8 +17,9 @@ const openCV = () => {
 </script>
 <template>
   <div
-    class="flex items-center max-[450px]:flex-col gap-4 w-full justify-center pt-10 my-10 border-t border-gray-200"
+    class="flex w-full justify-center pt-10 my-10 border-t border-gray-200"
   >
+   <div class="flex items-center max-[450px]:flex-col gap-4 w-fit">
     <UButton
       size="lg"
       icon="ph:read-cv-logo-fill"
@@ -41,5 +42,6 @@ const openCV = () => {
       @click="openDiploma"
       >{{ $t("diploma") }}</UButton
     >
+    </div>
   </div>
 </template>
