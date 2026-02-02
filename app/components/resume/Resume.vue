@@ -17,7 +17,7 @@ const openCV = () => {
 </script>
 <template>
   <div
-    class="flex items-center max-[450px]:flex-col gap-2 w-full justify-center pt-10 my-10 border-t border-gray-200"
+    class="flex items-center max-[450px]:flex-col gap-4 w-full justify-center pt-10 my-10 border-t border-gray-200"
   >
     <UButton
       size="lg"
