@@ -15,8 +15,13 @@ const { locale, setLocale } = useI18n();
 // v-model needs a computed for Ref
 const selectedLocale = computed({
   get: () => locale.value,
-  set: (val) => setLocale(val),
+  set: (val) => setLanguage(val),
 });
+
+const setLanguage = async (event: "fr" | "en") => {
+  await setLocale(event);
+  location.reload();
+};
 </script>
 
 <template>
