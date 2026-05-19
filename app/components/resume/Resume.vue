@@ -1,11 +1,5 @@
 <script setup lang="ts">
 const { locale } = useI18n();
-const openDiploma = () => {
-  window.open(
-    "https://drive.google.com/file/d/1Xvy6JKb3fP8r4nwfpkNlMBOLk310icN0/view?usp=drivesdk",
-    "_blank",
-  );
-};
 const openCV = () => {
   window.open(
     locale.value === "en"
@@ -30,17 +24,6 @@ const openCV = () => {
       }"
       @click="openCV"
       >{{ $t("cv") }}</UButton
-    >
-    <UButton
-      size="lg"
-      icon="lucide:graduation-cap"
-      color="neutral"
-      variant="outline"
-      :ui="{
-        base: 'w-fit ring-0 hover:!bg-transparent border-2 rounded-none cursor-pointer px-5 py-2',
-      }"
-      @click="openDiploma"
-      >{{ $t("diploma") }}</UButton
     >
     </div>
   </div>
